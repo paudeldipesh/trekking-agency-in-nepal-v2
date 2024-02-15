@@ -1773,7 +1773,6 @@
                 </p>
               </div>
             </div>
-
             <div class="swiper-pagination"></div>
           </div>
         </div>
@@ -2420,60 +2419,285 @@
           class="container mx-auto mt-2 md:mt-8 md:p-0 p-4 h-full"
           style="overflow-x: hidden; overflow-y: clip"
         >
-          <div class="swiper-testimonial w-full h-full">
-            <div class="swiper-wrapper text-[#4a4a4a]">
-              <div class="swiper-slide">
-                <div class="rounded-md shadow-lg min-h-[26rem]">
-                  <!-- Quote -->
+          <div class="w-full h-full">
+            <div class="text-[#4a4a4a] px-4 lg:px-16">
+              <div class="swiper-testimonials">
+                <div class="swiper-wrapper">
+                  <!-- Testimonials Card -->
                   <div
-                    class="absolute z-[100] text-[6rem] opacity-25"
-                    style="
-                      left: 50%;
-                      top: 50%;
-                      transform: translate(-50%, -50%);
-                    "
+                    class="rounded-md flex flex-col swiper-slide relative bg-blue-300 shadow-lg min-h-[25rem]"
                   >
-                    <i class="flex fa fa-quote-left text-secondary"></i>
+                    <!-- Quote -->
+                    <div
+                      class="absolute z-50 text-[4rem] opacity-10"
+                      style="
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                      "
+                    >
+                      <i class="flex fa fa-quote-left text-secondary"></i>
+                    </div>
+                    <!-- Stars -->
+                    <div
+                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                    >
+                      <i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i>
+                    </div>
+                    <!-- Paragraph -->
+                    <p
+                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                    >
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque, a. Ad a beatae ea aut harum, saepe repellendus
+                      reiciendis provident perferendis ipsam deserunt quas,
+                      architecto accusantium!
+                    </p>
+                    <!-- Author -->
+                    <p
+                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                    >
+                      Prithika Sharma
+                    </p>
+                    <p
+                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                    >
+                      Civil Engineer
+                    </p>
+                    <!-- Image -->
+                    <div
+                      class="absolute left-[50%] bottom-8 md:bottom-4 transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                    >
+                      <img
+                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="client"
+                      />
+                    </div>
                   </div>
-                  <!-- Stars -->
+                  <!-- Testimonials Card -->
+                  <!-- Testimonials Card -->
                   <div
-                    class="relative text-yellow-400 p-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                    class="rounded-md flex flex-col swiper-slide relative bg-blue-300 shadow-lg min-h-[25rem]"
                   >
-                    <i class="fa fa-star ml-1" aria-hidden="true"></i
-                    ><i class="fa fa-star ml-1" aria-hidden="true"></i
-                    ><i class="fa fa-star ml-1" aria-hidden="true"></i>
+                    <!-- Quote -->
+                    <div
+                      class="absolute z-50 text-[4rem] opacity-10"
+                      style="
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                      "
+                    >
+                      <i class="flex fa fa-quote-left text-secondary"></i>
+                    </div>
+                    <!-- Stars -->
+                    <div
+                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                    >
+                      <i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i>
+                    </div>
+                    <!-- Paragraph -->
+                    <p
+                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                    >
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque, a. Ad a beatae ea aut harum, saepe repellendus
+                      reiciendis provident perferendis ipsam deserunt quas,
+                      architecto accusantium!
+                    </p>
+                    <!-- Author -->
+                    <p
+                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                    >
+                      Prithika Sharma
+                    </p>
+                    <p
+                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                    >
+                      Civil Engineer
+                    </p>
+                    <!-- Image -->
+                    <div
+                      class="absolute left-[50%] bottom-8 md:bottom-4 transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                    >
+                      <img
+                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="client"
+                      />
+                    </div>
                   </div>
-                  <!-- Paragraph -->
-                  <p
-                    class="relative font-medium p-4 text-center text-[1rem] leading-[1.5rem] text-[#4a4a4a]"
-                  >
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque, a. Ad a beatae ea aut harum, saepe repellendus
-                    reiciendis provident perferendis ipsam deserunt quas,
-                    architecto accusantium consequatur alias sed facere!
-                  </p>
-                  <!-- Author -->
-                  <p
-                    class="relative font-bold p-4 mt-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
-                  >
-                    Prithak Adhikari
-                  </p>
-                  <p
-                    class="relative font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
-                  >
-                    Back End Engineer
-                  </p>
-                  <!-- Image -->
+                  <!-- Testimonials Card -->
+                  <!-- Testimonials Card -->
                   <div
-                    class="absolute bg-white rounded-[50%] shadow-sm"
-                    style="left: 50%; top: 72%; transform: translate(-50%)"
+                    class="rounded-md flex flex-col swiper-slide relative bg-blue-300 shadow-lg min-h-[25rem]"
                   >
-                    <img
-                      class="aspect-square p-4 w-[150px] object-cover rounded-[50%]"
-                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                      alt=""
-                    />
+                    <!-- Quote -->
+                    <div
+                      class="absolute z-50 text-[4rem] opacity-10"
+                      style="
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                      "
+                    >
+                      <i class="flex fa fa-quote-left text-secondary"></i>
+                    </div>
+                    <!-- Stars -->
+                    <div
+                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                    >
+                      <i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i>
+                    </div>
+                    <!-- Paragraph -->
+                    <p
+                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                    >
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque, a. Ad a beatae ea aut harum, saepe repellendus
+                      reiciendis provident perferendis ipsam deserunt quas,
+                      architecto accusantium!
+                    </p>
+                    <!-- Author -->
+                    <p
+                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                    >
+                      Prithika Sharma
+                    </p>
+                    <p
+                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                    >
+                      Civil Engineer
+                    </p>
+                    <!-- Image -->
+                    <div
+                      class="absolute left-[50%] bottom-8 md:bottom-4 transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                    >
+                      <img
+                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="client"
+                      />
+                    </div>
                   </div>
+                  <!-- Testimonials Card -->
+                  <!-- Testimonials Card -->
+                  <div
+                    class="rounded-md flex flex-col swiper-slide relative bg-blue-300 shadow-lg min-h-[25rem]"
+                  >
+                    <!-- Quote -->
+                    <div
+                      class="absolute z-50 text-[4rem] opacity-10"
+                      style="
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                      "
+                    >
+                      <i class="flex fa fa-quote-left text-secondary"></i>
+                    </div>
+                    <!-- Stars -->
+                    <div
+                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                    >
+                      <i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i>
+                    </div>
+                    <!-- Paragraph -->
+                    <p
+                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                    >
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque, a. Ad a beatae ea aut harum, saepe repellendus
+                      reiciendis provident perferendis ipsam deserunt quas,
+                      architecto accusantium!
+                    </p>
+                    <!-- Author -->
+                    <p
+                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                    >
+                      Prithika Sharma
+                    </p>
+                    <p
+                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                    >
+                      Civil Engineer
+                    </p>
+                    <!-- Image -->
+                    <div
+                      class="absolute left-[50%] bottom-8 md:bottom-4 transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                    >
+                      <img
+                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="client"
+                      />
+                    </div>
+                  </div>
+                  <!-- Testimonials Card -->
+                  <!-- Testimonials Card -->
+                  <div
+                    class="rounded-md flex flex-col swiper-slide relative bg-blue-300 shadow-lg min-h-[25rem]"
+                  >
+                    <!-- Quote -->
+                    <div
+                      class="absolute z-50 text-[4rem] opacity-10"
+                      style="
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                      "
+                    >
+                      <i class="flex fa fa-quote-left text-secondary"></i>
+                    </div>
+                    <!-- Stars -->
+                    <div
+                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                    >
+                      <i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i
+                      ><i class="fa fa-star ml-1" aria-hidden="true"></i>
+                    </div>
+                    <!-- Paragraph -->
+                    <p
+                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                    >
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque, a. Ad a beatae ea aut harum, saepe repellendus
+                      reiciendis provident perferendis ipsam deserunt quas,
+                      architecto accusantium!
+                    </p>
+                    <!-- Author -->
+                    <p
+                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                    >
+                      Prithika Sharma
+                    </p>
+                    <p
+                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                    >
+                      Civil Engineer
+                    </p>
+                    <!-- Image -->
+                    <div
+                      class="absolute left-[50%] bottom-8 md:bottom-4 transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                    >
+                      <img
+                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="client"
+                      />
+                    </div>
+                  </div>
+                  <!-- Testimonials Card -->
                 </div>
               </div>
             </div>
@@ -2492,7 +2716,9 @@
         <div
           class="container mx-auto md:p-0 p-4 text-3xl font-bold mt-2 md:mt-16 text-[#4a4a4a]"
         >
-          <h1>LATEST <span class="text-primary">BLOGS</span></h1>
+          <h1 class="uppercase">
+            LATEST <span class="text-primary uppercase">BLOGS</span>
+          </h1>
           <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
         </div>
         <div
@@ -2691,7 +2917,7 @@
             local travel agency, associated with Nepal Tourism Board. We are
             able to facilitate you to explore our beautiful country Nepal.
           </p>
-          <div class="flex flex-col gap-2]">
+          <div class="flex flex-col gap-2">
             <a href="#" class="hover:underline flex items-center gap-2"
               ><i class="fa fa-phone"></i>+9800000000 / 9874483838</a
             >

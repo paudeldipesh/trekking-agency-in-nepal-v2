@@ -43,11 +43,11 @@ new Swiper(".swiper", {
 });
 
 // Swiper for Testimonials
-const swiperTestimonail = new Swiper(".swiper-testimonial", {
+new Swiper(".swiper-testimonials", {
   direction: "horizontal",
   loop: true,
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 50,
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -55,23 +55,22 @@ const swiperTestimonail = new Swiper(".swiper-testimonial", {
   },
 
   pagination: {
-    el: ".swiper-testimonial-pagination",
+    el: ".swiper-pagination",
     clickable: true,
   },
 
   autoplay: {
-    delay: 4000,
+    delay: 2000,
   },
 
   breakpoints: {
-    300: {
-      slidesPerView: 1,
-    },
-    767: {
+    900: {
       slidesPerView: 2,
+      spaceBetween: 80,
     },
-    1145: {
+    1280: {
       slidesPerView: 3,
+      spaceBetween: 75,
     },
   },
 });
