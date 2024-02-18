@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -43,44 +43,46 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Trekking Archives - All Nepal Excursion</title>
   </head>
-  <body class="bg-slate-100 font-['Open Sans']">
+  <body class="font-['Open Sans'] bg-slate-100">
     <!-- Header Section -->
-    <header
-      class="flex flex-col small:flex-row justify-around mb:h-[80px] large:h-12 items-center bg-primary"
-    >
-      <div class="flex flex-col tab:flex-row gap-1 md:gap-5 items-center">
-        <a
-          href="mailto:allnepalexcursion@gmail.com"
-          class="text-white gap-2 text-center p-1"
-          ><li class="fa fa-envelope"></li>
-          allnepalexcursion@gmail.com</a
-        >
-        <a href="tel:+977-985114150" class="text-white text-center p-1"
-          ><li class="fab fa-whatsapp"></li>
-          +977-9851141500 (Whatsapp / Viber)</a
-        >
-      </div>
-      <div>
-        <a
-          href="https://www.facebook.com/allnepalexcursiontreks"
-          target="_blank"
-          class="text-white p-1 ml-2 text-xl"
-          ><li class="fab fa-facebook-square"></li
-        ></a>
-        <a href="#" class="text-white p-1 ml-2 text-xl"
-          ><li class="fab fa-twitter-square"></li
-        ></a>
-        <a href="#" class="text-white p-1 ml-2 text-xl"
-          ><li class="fab fa-youtube-square"></li
-        ></a>
+    <header class="bg-primary">
+      <div
+        class="container mx-auto flex flex-col items-center justify-between small:flex-row mb:h-[80px] large:h-12"
+      >
+        <div class="flex flex-col items-center gap-1 tab:flex-row md:gap-5">
+          <a
+            href="mailto:allnepalexcursion@gmail.com"
+            class="gap-2 p-1 text-center text-white"
+            ><li class="fa fa-envelope"></li>
+            allnepalexcursion@gmail.com</a
+          >
+          <a href="tel:+977-985114150" class="p-1 text-center text-white"
+            ><li class="fab fa-whatsapp"></li>
+            +977-9851141500 (Whatsapp / Viber)</a
+          >
+        </div>
+        <div>
+          <a
+            href="https://www.facebook.com/allnepalexcursiontreks"
+            target="_blank"
+            class="ml-2 p-1 text-xl text-white"
+            ><li class="fab fa-facebook-square"></li
+          ></a>
+          <a href="#" class="ml-2 p-1 text-xl text-white"
+            ><li class="fab fa-twitter-square"></li
+          ></a>
+          <a href="#" class="ml-2 p-1 text-xl text-white"
+            ><li class="fab fa-youtube-square"></li
+          ></a>
+        </div>
       </div>
     </header>
     <!-- Header Section -->
 
     <!-- Big Screen Navbar Section -->
-    <div class="bg-white z-10 sticky top-0 hidden large:block">
+    <div class="sticky top-0 z-10 hidden bg-white large:block">
       <nav
-        class="h-[60px] large:h-[90px] container m-auto flex justify-between items-center"
+        class="container m-auto flex h-[60px] items-center justify-between large:h-[90px]"
       >
         <a href="index.html"
           ><img
@@ -89,61 +91,61 @@
             alt="logo"
         /></a>
 
-        <ul class="gap-5 large:flex hidden">
+        <ul class="hidden gap-5 large:flex">
           <a href="index.html"
             ><li class="cursor-pointer font-[500]">Home</li></a
           >
 
           <div class="group relative">
             <a href="pages/trekking/index.html" class="group"
-              ><li class="group p-[2px] flex justify-between gap-2 font-[500]">
+              ><li class="group flex justify-between gap-2 p-[2px] font-[500]">
                 Trekking <i class="fa-solid fa-sort-down"></i>
               </li>
             </a>
             <ul
-              class="hidden rounded-md text-base text-slate-600 bg-white w-max sub-nav-item absolute top-7 p-1 border"
+              class="sub-nav-item absolute top-7 hidden w-max rounded-md border bg-white p-1 text-base text-slate-600"
             >
-              <div class="sub-group w-full relative">
-                <a href="#" class="cursor-pointer sub-group">
+              <div class="sub-group relative w-full">
+                <a href="#" class="sub-group cursor-pointer">
                   <li
-                    class="sub-group border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                    class="sub-group flex items-center justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                   >
                     manaslu region
-                    <i class="fa-solid fa-sort-down"></i>
+                    <i class="fa-solid fa-angle-right"></i>
                   </li>
 
                   <ul
-                    class="hidden absolute top-0 left-[100%] rounded-md overflow-hidden w-max z-10 bg-white shadow-md sub-nav"
+                    class="sub-nav absolute left-[100%] top-0 z-10 hidden w-max overflow-hidden rounded-md bg-white shadow-md"
                   >
-                    <div class="p-1 border">
+                    <div class="border p-1">
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal"
+                        class="rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Around Manaslu Trekking
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal"
+                        class="rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Manaslu Base Camp Trekking
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal"
+                        class="rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Tsum Valley Trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Nar Phu Valley Trek
                         </a>
                       </li>
@@ -152,47 +154,47 @@
                 </a>
               </div>
 
-              <div class="sub-group w-full relative">
-                <a href="#" class="cursor-pointer sub-group">
+              <div class="sub-group relative w-full">
+                <a href="#" class="sub-group cursor-pointer">
                   <li
-                    class="sub-group border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                    class="sub-group flex items-center justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                   >
                     everest region
-                    <i class="fa-solid fa-sort-down"></i>
+                    <i class="fa-solid fa-angle-right"></i>
                   </li>
 
                   <ul
-                    class="hidden absolute top-0 left-[100%] rounded-md overflow-hidden w-max z-10 bg-white shadow-md sub-nav"
+                    class="sub-nav absolute left-[100%] top-0 z-10 hidden w-max overflow-hidden rounded-md bg-white shadow-md"
                   >
-                    <div class="p-1 border">
+                    <div class="border p-1">
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal"
+                        class="rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           everest base camp trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           everest three high passes trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           everest panorama trekking
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           gokyo lake trek
                         </a>
                       </li>
@@ -201,63 +203,63 @@
                 </a>
               </div>
 
-              <div class="sub-group w-full relative">
-                <a href="#" class="cursor-pointer sub-group">
+              <div class="sub-group relative w-full">
+                <a href="#" class="sub-group cursor-pointer">
                   <li
-                    class="sub-group border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                    class="sub-group flex items-center justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                   >
                     annapurna region
-                    <i class="fa-solid fa-sort-down"></i>
+                    <i class="fa-solid fa-angle-right"></i>
                   </li>
 
                   <ul
-                    class="hidden absolute top-0 left-[100%] rounded-md overflow-hidden w-max z-10 bg-white shadow-md sub-nav"
+                    class="sub-nav absolute left-[100%] top-0 z-10 hidden w-max overflow-hidden rounded-md bg-white shadow-md"
                   >
-                    <div class="p-1 border">
+                    <div class="border p-1">
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal"
+                        class="rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group"
+                        <a href="#" class="sub-group cursor-pointer"
                           >Annapurna Base Camp Trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Annapurna Circuit(Round) Trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Khumai Danda Trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Mardi Himal Trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Gorepani Phoonhill Trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           Khorpa Ridge Trekking
                         </a>
                       </li>
@@ -266,31 +268,31 @@
                 </a>
               </div>
 
-              <div class="sub-group w-full relative">
-                <a href="#" class="cursor-pointer sub-group">
+              <div class="sub-group relative w-full">
+                <a href="#" class="sub-group cursor-pointer">
                   <li
-                    class="sub-group border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                    class="sub-group flex items-center justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                   >
                     langtang region
-                    <i class="fa-solid fa-sort-down"></i>
+                    <i class="fa-solid fa-angle-right"></i>
                   </li>
 
                   <ul
-                    class="hidden absolute top-0 left-[100%] rounded-md overflow-hidden w-max z-10 bg-white shadow-md sub-nav"
+                    class="sub-nav absolute left-[100%] top-0 z-10 hidden w-max overflow-hidden rounded-md bg-white shadow-md"
                   >
-                    <div class="p-1 border">
+                    <div class="border p-1">
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal"
+                        class="rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group"
+                        <a href="#" class="sub-group cursor-pointer"
                           >langtang valley trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           langtang helambu trek
                         </a>
                       </li>
@@ -299,38 +301,38 @@
                 </a>
               </div>
 
-              <div class="sub-group w-full relative">
-                <a href="#" class="cursor-pointer sub-group">
+              <div class="sub-group relative w-full">
+                <a href="#" class="sub-group cursor-pointer">
                   <li
-                    class="sub-group border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                    class="sub-group flex items-center justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                   >
-                    dolpa <i class="fa-solid fa-sort-down"></i>
+                    dolpa <i class="fa-solid fa-angle-right"></i>
                   </li>
 
                   <ul
-                    class="hidden absolute top-0 left-[100%] rounded-md overflow-hidden w-max z-10 bg-white shadow-md sub-nav"
+                    class="sub-nav absolute left-[100%] top-0 z-10 hidden w-max overflow-hidden rounded-md bg-white shadow-md"
                   >
-                    <div class="p-1 border">
+                    <div class="border p-1">
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal"
+                        class="rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group"
+                        <a href="#" class="sub-group cursor-pointer"
                           >upper dolpa trek
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal"
+                        class="rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           lower dolpa trekking
                         </a>
                       </li>
 
                       <li
-                        class="border-b border-gray-300 hover:text-white rounded hover:bg-primary capitalize p-2 font-normal flex justify-between"
+                        class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                       >
-                        <a href="#" class="cursor-pointer sub-group">
+                        <a href="#" class="sub-group cursor-pointer">
                           upper mustang trek
                         </a>
                       </li>
@@ -341,7 +343,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 capitalize hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   holy gosainkunda trek
                 </li></a
@@ -349,7 +351,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 capitalize hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   rara lake trekking
                 </li></a
@@ -357,7 +359,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 capitalize hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   kanchenjunga base camp trek
                 </li></a
@@ -365,7 +367,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 capitalize hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   makalu base camp trek
                 </li></a
@@ -373,7 +375,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 capitalize hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   royal trek
                 </li></a
@@ -383,16 +385,16 @@
 
           <div class="group relative">
             <a href="#" class="group"
-              ><li class="group p-[2px] flex justify-between gap-2 font-[500]">
+              ><li class="group flex justify-between gap-2 p-[2px] font-[500]">
                 Climbing <i class="fa-solid fa-sort-down"></i>
               </li>
             </a>
             <ul
-              class="hidden rounded-md text-base text-slate-600 bg-white w-max sub-nav-item absolute top-7 p-1 border"
+              class="sub-nav-item absolute top-7 hidden w-max rounded-md border bg-white p-1 text-base text-slate-600"
             >
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between capitalize"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   mt. everest expedition
                 </li></a
@@ -400,7 +402,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between capitalize"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   island peak climbing
                 </li></a
@@ -408,7 +410,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between capitalize"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   lobouche peak climbing
                 </li></a
@@ -418,16 +420,16 @@
 
           <div class="group relative">
             <a href="#" class="group"
-              ><li class="group p-[2px] flex justify-between gap-2 font-[500]">
+              ><li class="group flex justify-between gap-2 p-[2px] font-[500]">
                 Tour <i class="fa-solid fa-sort-down"></i>
               </li>
             </a>
             <ul
-              class="hidden rounded-md text-base text-slate-600 bg-white w-max sub-nav-item absolute top-7 p-1 border"
+              class="sub-nav-item absolute top-7 hidden w-max rounded-md border bg-white p-1 text-base text-slate-600"
             >
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between capitalize"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   kathmandu valley tour
                 </li></a
@@ -435,7 +437,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between capitalize"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   the golden triangle tour
                 </li></a
@@ -443,7 +445,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between capitalize"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   kathmandu heritage tour
                 </li></a
@@ -453,16 +455,16 @@
 
           <div class="group relative">
             <a href="#" class="group"
-              ><li class="group p-[2px] flex justify-between gap-2 font-[500]">
+              ><li class="group flex justify-between gap-2 p-[2px] font-[500]">
                 Helicopter Tour <i class="fa-solid fa-sort-down"></i>
               </li>
             </a>
             <ul
-              class="hidden rounded-md text-base text-slate-600 bg-white w-max sub-nav-item absolute top-7 p-1 border"
+              class="sub-nav-item absolute top-7 hidden w-max rounded-md border bg-white p-1 text-base text-slate-600"
             >
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between capitalize"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   everest base camp helicopter tour
                 </li></a
@@ -470,7 +472,7 @@
 
               <a href="#"
                 ><li
-                  class="border-b border-gray-300 hover:text-white rounded hover:bg-primary p-2 font-normal flex justify-between capitalize"
+                  class="flex justify-between rounded border-b border-gray-300 p-2 font-normal capitalize hover:bg-primary hover:text-white"
                 >
                   gosainkunda helicopter tour
                 </li></a
@@ -486,9 +488,9 @@
           >
         </ul>
 
-        <div class="pc:block hidden">
+        <div class="hidden pc:block">
           <input
-            class="p-2 rounded border border-gray-400 focus:outline-none w-[250px]"
+            class="w-[250px] rounded border border-gray-400 p-2 focus:outline-none"
             type="search"
             placeholder="Search"
           />
@@ -498,9 +500,9 @@
     <!-- Big Screen Navbar Section -->
 
     <!-- Mobile Screen Navbar Section -->
-    <div class="bg-white z-10 sticky top-0 block large:hidden">
+    <div class="sticky top-0 z-10 block bg-white large:hidden">
       <nav
-        class="h-[60px] large:h-[90px] w-[80%] m-auto flex justify-between items-center"
+        class="m-auto flex h-[60px] w-[80%] items-center justify-between large:h-[90px]"
       >
         <a href="index.html"
           ><img
@@ -509,28 +511,28 @@
             alt="logo"
         /></a>
 
-        <button class="large:hidden block" id="bar-icon">
+        <button class="block large:hidden" id="bar-icon">
           <i class="fa fa-bars text-2xl"></i>
         </button>
       </nav>
 
-      <ul id="nav-items" class="gap-12 text-slate-600 hidden">
+      <ul id="nav-items" class="hidden gap-12 text-slate-600">
         <li
-          class="cursor-pointer border-b border-gray-300 capitalize p-2 font-normal"
+          class="cursor-pointer border-b border-gray-300 p-2 font-normal capitalize"
         >
           <a href="index.html">Home</a>
         </li>
 
         <li>
           <div
-            class="p-2 border-b border-gray-300 flex justify-between gap-2 parent-element"
+            class="parent-element flex justify-between gap-2 border-b border-gray-300 p-2"
           >
             Trekking <i class="fa-solid fa-sort-down"></i>
           </div>
-          <ul class="hidden text-base bg-white p-1">
+          <ul class="hidden bg-white p-1 text-base">
             <div class="w-full">
               <li
-                class="border-b parent-element border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="parent-element flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 manaslu region
                 <i class="fa-solid fa-sort-down"></i>
@@ -539,7 +541,7 @@
               <ul class="hidden overflow-hidden bg-white shadow-md">
                 <div class="p-2">
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">
                       Around Manaslu Trekking
@@ -547,7 +549,7 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">
                       Manaslu Base Camp Trekking
@@ -555,13 +557,13 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">Tsum Valley Trek </a>
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                    class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">Nar Phu Valley Trek </a>
                   </li>
@@ -571,7 +573,7 @@
 
             <div class="w-full">
               <li
-                class="border-b parent-element border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="parent-element flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 everest region
                 <i class="fa-solid fa-sort-down"></i>
@@ -580,7 +582,7 @@
               <ul class="hidden overflow-hidden bg-white shadow-md">
                 <div class="p-2">
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">
                       everest base camp trek
@@ -588,7 +590,7 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">
                       everest three high passes trek
@@ -596,7 +598,7 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">
                       everest panorama trekking</a
@@ -604,7 +606,7 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                    class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">gokyo lake trek</a>
                   </li>
@@ -614,16 +616,16 @@
 
             <div class="w-full">
               <li
-                class="border-b parent-element border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="parent-element flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 annapurna region
                 <i class="fa-solid fa-sort-down"></i>
               </li>
 
-              <ul class="hidden overflow-hidden bg-white shadow-md sub-nav">
+              <ul class="sub-nav hidden overflow-hidden bg-white shadow-md">
                 <div class="p-2">
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer"
                       >Annapurna Base Camp Trek
@@ -631,7 +633,7 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">
                       Annapurna Circuit(Round) Trek
@@ -639,19 +641,19 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer"> Khumai Danda Trek</a>
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                    class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">Mardi Himal Trek</a>
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                    class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer"
                       >Gorepani Phoonhill Trek</a
@@ -659,7 +661,7 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                    class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">Khorpa Ridge Trekking</a>
                   </li>
@@ -669,22 +671,22 @@
 
             <div class="w-full">
               <li
-                class="border-b parent-element border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="parent-element flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 langtang region
                 <i class="fa-solid fa-sort-down"></i>
               </li>
 
-              <ul class="hidden overflow-hidden bg-white shadow-md sub-nav">
+              <ul class="sub-nav hidden overflow-hidden bg-white shadow-md">
                 <div class="p-2">
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">langtang valley trek </a>
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">
                       langtang helambu trek
@@ -696,22 +698,22 @@
 
             <div class="w-full">
               <li
-                class="border-b parent-element border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="parent-element flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 dolpa
                 <i class="fa-solid fa-sort-down"></i>
               </li>
 
-              <ul class="hidden overflow-hidden bg-white shadow-md sub-nav">
+              <ul class="sub-nav hidden overflow-hidden bg-white shadow-md">
                 <div class="p-2">
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">upper dolpa trek</a>
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer">
                       lower dolpa trekking
@@ -719,7 +721,7 @@
                   </li>
 
                   <li
-                    class="border-b border-gray-300 capitalize p-2 font-normal"
+                    class="border-b border-gray-300 p-2 font-normal capitalize"
                   >
                     <a href="#" class="cursor-pointer"> upper mustang trek </a>
                   </li>
@@ -729,7 +731,7 @@
 
             <a href="#"
               ><li
-                class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 holy gosainkunda trek
               </li></a
@@ -737,7 +739,7 @@
 
             <a href="#"
               ><li
-                class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 rara lake trekking
               </li></a
@@ -745,7 +747,7 @@
 
             <a href="#"
               ><li
-                class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 kanchenjunga base camp trek
               </li></a
@@ -753,7 +755,7 @@
 
             <a href="#"
               ><li
-                class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 makalu base camp trek
               </li></a
@@ -761,7 +763,7 @@
 
             <a href="#"
               ><li
-                class="border-b border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 royal trek
               </li></a
@@ -771,26 +773,26 @@
 
         <li>
           <div
-            class="p-2 border-b border-gray-300 flex justify-between gap-2 parent-element"
+            class="parent-element flex justify-between gap-2 border-b border-gray-300 p-2"
           >
             Climbing <i class="fa-solid fa-sort-down"></i>
           </div>
-          <ul class="hidden text-base bg-white sub-nav-item p-1">
+          <ul class="sub-nav-item hidden bg-white p-1 text-base">
             <div class="w-full">
               <li
-                class="border-b manaslu border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="manaslu flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 mt. everest expedition
               </li>
 
               <li
-                class="border-b manaslu border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="manaslu flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 island peak climbing
               </li>
 
               <li
-                class="border-b manaslu border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="manaslu flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 lobouche peak climbing
               </li>
@@ -800,26 +802,26 @@
 
         <li>
           <div
-            class="p-2 border-b border-gray-300 flex justify-between gap-2 parent-element"
+            class="parent-element flex justify-between gap-2 border-b border-gray-300 p-2"
           >
             Tour <i class="fa-solid fa-sort-down"></i>
           </div>
-          <ul class="hidden text-base bg-white sub-nav-item p-1">
+          <ul class="sub-nav-item hidden bg-white p-1 text-base">
             <div class="w-full">
               <li
-                class="border-b manaslu border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="manaslu flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 kathmandu valley tour
               </li>
 
               <li
-                class="border-b manaslu border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="manaslu flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 the golden triangle tour
               </li>
 
               <li
-                class="border-b manaslu border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="manaslu flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 kathmandu heritage tour
               </li>
@@ -829,20 +831,20 @@
 
         <li>
           <div
-            class="p-2 border-b border-gray-300 flex justify-between gap-2 parent-element"
+            class="parent-element flex justify-between gap-2 border-b border-gray-300 p-2"
           >
             Helicopter Tour <i class="fa-solid fa-sort-down"></i>
           </div>
-          <ul class="hidden text-base bg-white sub-nav-item p-1">
+          <ul class="sub-nav-item hidden bg-white p-1 text-base">
             <div class="w-full">
               <li
-                class="border-b manaslu border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="manaslu flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 everest base camp helicopter tour
               </li>
 
               <li
-                class="border-b manaslu border-gray-300 capitalize p-2 font-normal flex justify-between"
+                class="manaslu flex justify-between border-b border-gray-300 p-2 font-normal capitalize"
               >
                 gosainkunda helicopter tour
               </li>
@@ -850,11 +852,11 @@
           </ul>
         </li>
 
-        <li class="cursor-pointer p-2 border-b border-gray-300">
+        <li class="cursor-pointer border-b border-gray-300 p-2">
           <a href="pages/about.html">About Us</a>
         </li>
 
-        <li class="cursor-pointer p-2 border-b border-gray-300">
+        <li class="cursor-pointer border-b border-gray-300 p-2">
           <a href="#">Blog</a>
         </li>
       </ul>
@@ -870,9 +872,9 @@
       autoplay-delay="3000"
     >
       <swiper-slide class="text-center text-[18px]">
-        <div class="text-white font-bold drop-shadow-lg">
+        <div class="font-bold text-white drop-shadow-lg">
           <div
-            class="flex relative h-[500px] md:h-[600px] flex-col justify-center items-start gap-4"
+            class="relative flex h-[500px] flex-col items-center justify-center gap-4 md:h-[600px]"
           >
             <img
               class="absolute -z-50"
@@ -880,19 +882,19 @@
               alt="boudhnath"
             />
             <h1
-              class="font-bold text-2xl large:text-4xl text-center sm:text-left bg-gradient-to-r from-blue-500 ml-[7%] via-red-500 to-green-500 text-transparent bg-clip-text uppercase"
+              class="text-center text-2xl font-bold uppercase text-white large:text-4xl"
             >
               boudhnath stupa
             </h1>
 
             <h2
-              class="text-base ml-[7%] small:text-xl large:text-2xl text-gray-700 text-shadow-lg"
+              class="text-shadow-lg text-base text-gray-700 small:text-xl large:text-2xl"
             >
               Situated On The Heart Of Beautiful Buddhist Stupa.
             </h2>
-            <div class="mt-3 ml-[7%]">
+            <div class="ml-[7%] mt-3">
               <button
-                class="bg-primary hover:text-black rounded-3xl py-3 px-5 capitalize"
+                class="rounded-3xl bg-primary px-5 py-3 capitalize hover:text-black"
               >
                 view more
               </button>
@@ -901,9 +903,9 @@
         </div>
       </swiper-slide>
       <swiper-slide class="text-center text-[18px]">
-        <div class="text-white font-bold drop-shadow-lg">
+        <div class="font-bold text-white drop-shadow-lg">
           <div
-            class="flex relative h-[500px] md:h-[600px] flex-col justify-center items-start gap-4"
+            class="relative flex h-[500px] flex-col items-center justify-center gap-4 md:h-[600px]"
           >
             <img
               class="absolute -z-50"
@@ -911,19 +913,19 @@
               alt="helicopter"
             />
             <h1
-              class="font-bold text-2xl large:text-4xl text-left bg-gradient-to-r from-primary ml-[7%] to-secondary text-transparent bg-clip-text uppercase"
+              class="text-center text-2xl font-bold uppercase text-white large:text-4xl"
             >
               Helicopter landing in Mountain
             </h1>
 
             <h2
-              class="text-base ml-[7%] small:text-xl large:text-2xl text-gray-700 text-shadow-lg"
+              class="text-shadow-lg text-base text-gray-700 small:text-xl large:text-2xl"
             >
               Experience the top of the world
             </h2>
-            <div class="mt-3 ml-[7%]">
+            <div class="mt-3">
               <button
-                class="bg-primary hover:text-black rounded-3xl py-3 px-5 capitalize"
+                class="rounded-3xl bg-primary px-5 py-3 capitalize hover:text-black"
               >
                 view more
               </button>
@@ -934,17 +936,17 @@
     </swiper-container>
     <!-- Hero Section -->
 
-    <main class="mx-auto items-center mt-8">
+    <main class="mx-auto mt-8 items-center">
       <!-- About Section Start -->
 
       <section>
-        <div class="container mx-auto md:p-0 p-4 lg:flex lg:gap-2 mt-16">
-          <div class="lg:flex lg:basis-[50%] font-normal lg:flex-col">
-            <h1 class="font-bold text-3xl text-[#4a4a4a]">
+        <div class="container mx-auto mt-16 p-4 md:p-0 lg:flex lg:gap-2">
+          <div class="font-normal lg:flex lg:basis-[50%] lg:flex-col">
+            <h1 class="text-3xl font-bold capitalize text-[#4a4a4a]">
               ABOUT ALL NEPAL <span class="text-primary">EXCURSION</span>
             </h1>
-            <div class="w-[5rem] border-b-4 border-[#4a4a4a] mb-5"></div>
-            <div class="font-normal text-[.95rem]">
+            <div class="mb-5 w-[5rem] border-b-4 border-[#4a4a4a]"></div>
+            <div class="text-[.95rem] font-normal">
               <p class="mb-4">
                 All Nepal Excursion is one of the best companies in Nepal that
                 offers complete tours, trekking, helicopter tour, and all
@@ -972,16 +974,16 @@
           </div>
 
           <div
-            class="lg:flex lg:basis-[30%] font-normal lg:flex-col p-0 md:pl-4 lg:translate-x-4"
+            class="p-0 font-normal md:pl-4 lg:flex lg:basis-[30%] lg:translate-x-4 lg:flex-col"
           >
             <img
-              class="rounded-lg md:translate-y-[6rem] mb-4 md:mb-0"
+              class="mb-4 rounded-lg md:mb-0 md:translate-y-[6rem]"
               src="https://plus.unsplash.com/premium_photo-1673240367277-e1d394465b56?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
           </div>
-          <div class="lg:flex lg:basis-[30%] lg:flex-col lg:gap-6 p-0 lg:pl-4">
-            <div class="lg:flex lg:basis-[30%] lg:flex-col p-0 lg:pl-4">
+          <div class="p-0 lg:flex lg:basis-[30%] lg:flex-col lg:gap-6 lg:pl-4">
+            <div class="p-0 lg:flex lg:basis-[30%] lg:flex-col lg:pl-4">
               <img
                 class="rounded-lg"
                 src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -989,7 +991,7 @@
               />
             </div>
             <div
-              class="lg:flex lg:basis-[30%] mt-4 lg:mt-0 lg:gap-4 lg:flex-col p-0 lg:pl-4"
+              class="mt-4 p-0 lg:mt-0 lg:flex lg:basis-[30%] lg:flex-col lg:gap-4 lg:pl-4"
             >
               <img
                 class="rounded-lg"
@@ -1005,8 +1007,8 @@
 
       <!-- Explore Section Start -->
       <section>
-        <div class="container mx-auto md:p-0 p-4">
-          <div class="text-3xl font-bold mt-16 text-[#4a4a4a]">
+        <div class="container mx-auto p-4 md:p-0">
+          <div class="mt-16 text-3xl font-bold text-[#4a4a4a]">
             <h1 class="">
               EXPLORE THE <span class="text-primary">HIMALAYAS</span>
             </h1>
@@ -1015,17 +1017,17 @@
 
           <!-- Cards Start -->
           <div
-            class="grid lg:grid-cols-4 gap-6 my-8"
+            class="my-8 grid gap-6 lg:grid-cols-4"
             style="grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr))"
           >
             <!-- Single Card Start -->
             <div
-              class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+              class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
             >
               <div class="overflow-hidden rounded-t-lg">
                 <a href="pages/trekking/show.html">
                   <img
-                    class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                    class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                     src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                   />
@@ -1033,16 +1035,16 @@
               </div>
               <div class="p-4">
                 <a href="pages/trekking/show.html"
-                  ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                  ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                     Annapurna Base Camp Trek
                   </h1></a
                 >
                 <div class="flex">
                   <!-- First flex item -->
                   <div class="flex-1">
-                    <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                    <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                       From -
-                      <span class="text-primary text-lg font-semibold"
+                      <span class="text-lg font-semibold text-primary"
                         >$750</span
                       >
                     </p>
@@ -1051,10 +1053,10 @@
                   <!-- Second flex item -->
                   <div class="flex-1">
                     <div
-                      class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                      class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                     >
                       <i
-                        class="fa fa-clock mr-2 text-primary translate-y-1"
+                        class="fa fa-clock mr-2 translate-y-1 text-primary"
                       ></i>
                       <span class="text-lg">11 Days</span>
                     </div>
@@ -1062,7 +1064,7 @@
                 </div>
 
                 <div
-                  class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                  class="mb-1 text-justify font-normal text-[#4a4a4a]"
                   style="
                     font-size: clamp(16px, 1vw, 24px);
                     line-height: clamp(1.2, 5vw, 1.5);
@@ -1075,10 +1077,10 @@
                 <div class="grid place-items-center">
                   <a
                     href="pages/trekking/show.html"
-                    class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                    class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                     >Read More
                     <svg
-                      class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -1100,12 +1102,12 @@
 
             <!-- Single Card Start -->
             <div
-              class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+              class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
             >
               <div class="overflow-hidden rounded-t-lg">
                 <a href="pages/trekking/show.html">
                   <img
-                    class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                    class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                     src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                   />
@@ -1113,16 +1115,16 @@
               </div>
               <div class="p-4">
                 <a href="pages/trekking/show.html"
-                  ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                  ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                     Annapurna Base Camp Trek
                   </h1></a
                 >
                 <div class="flex">
                   <!-- First flex item -->
                   <div class="flex-1">
-                    <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                    <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                       From -
-                      <span class="text-primary text-lg font-semibold"
+                      <span class="text-lg font-semibold text-primary"
                         >$750</span
                       >
                     </p>
@@ -1131,10 +1133,10 @@
                   <!-- Second flex item -->
                   <div class="flex-1">
                     <div
-                      class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                      class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                     >
                       <i
-                        class="fa fa-clock mr-2 text-primary translate-y-1"
+                        class="fa fa-clock mr-2 translate-y-1 text-primary"
                       ></i>
                       <span class="text-lg">11 Days</span>
                     </div>
@@ -1142,7 +1144,7 @@
                 </div>
 
                 <div
-                  class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                  class="mb-1 text-justify font-normal text-[#4a4a4a]"
                   style="
                     font-size: clamp(16px, 1vw, 24px);
                     line-height: clamp(1.2, 5vw, 1.5);
@@ -1155,10 +1157,10 @@
                 <div class="grid place-items-center">
                   <a
                     href="pages/trekking/show.html"
-                    class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                    class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                     >Read More
                     <svg
-                      class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -1180,12 +1182,12 @@
 
             <!-- Single Card Start -->
             <div
-              class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+              class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
             >
               <div class="overflow-hidden rounded-t-lg">
                 <a href="pages/trekking/show.html">
                   <img
-                    class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                    class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                     src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                   />
@@ -1193,16 +1195,16 @@
               </div>
               <div class="p-4">
                 <a href="pages/trekking/show.html"
-                  ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                  ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                     Annapurna Base Camp Trek
                   </h1></a
                 >
                 <div class="flex">
                   <!-- First flex item -->
                   <div class="flex-1">
-                    <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                    <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                       From -
-                      <span class="text-primary text-lg font-semibold"
+                      <span class="text-lg font-semibold text-primary"
                         >$750</span
                       >
                     </p>
@@ -1211,10 +1213,10 @@
                   <!-- Second flex item -->
                   <div class="flex-1">
                     <div
-                      class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                      class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                     >
                       <i
-                        class="fa fa-clock mr-2 text-primary translate-y-1"
+                        class="fa fa-clock mr-2 translate-y-1 text-primary"
                       ></i>
                       <span class="text-lg">11 Days</span>
                     </div>
@@ -1222,7 +1224,7 @@
                 </div>
 
                 <div
-                  class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                  class="mb-1 text-justify font-normal text-[#4a4a4a]"
                   style="
                     font-size: clamp(16px, 1vw, 24px);
                     line-height: clamp(1.2, 5vw, 1.5);
@@ -1235,10 +1237,10 @@
                 <div class="grid place-items-center">
                   <a
                     href="pages/trekking/show.html"
-                    class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                    class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                     >Read More
                     <svg
-                      class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -1260,12 +1262,12 @@
 
             <!-- Single Card Start -->
             <div
-              class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+              class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
             >
               <div class="overflow-hidden rounded-t-lg">
                 <a href="pages/trekking/show.html">
                   <img
-                    class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                    class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                     src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                   />
@@ -1273,16 +1275,16 @@
               </div>
               <div class="p-4">
                 <a href="pages/trekking/show.html"
-                  ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                  ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                     Annapurna Base Camp Trek
                   </h1></a
                 >
                 <div class="flex">
                   <!-- First flex item -->
                   <div class="flex-1">
-                    <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                    <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                       From -
-                      <span class="text-primary text-lg font-semibold"
+                      <span class="text-lg font-semibold text-primary"
                         >$750</span
                       >
                     </p>
@@ -1291,10 +1293,10 @@
                   <!-- Second flex item -->
                   <div class="flex-1">
                     <div
-                      class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                      class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                     >
                       <i
-                        class="fa fa-clock mr-2 text-primary translate-y-1"
+                        class="fa fa-clock mr-2 translate-y-1 text-primary"
                       ></i>
                       <span class="text-lg">11 Days</span>
                     </div>
@@ -1302,7 +1304,7 @@
                 </div>
 
                 <div
-                  class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                  class="mb-1 text-justify font-normal text-[#4a4a4a]"
                   style="
                     font-size: clamp(16px, 1vw, 24px);
                     line-height: clamp(1.2, 5vw, 1.5);
@@ -1315,10 +1317,10 @@
                 <div class="grid place-items-center">
                   <a
                     href="pages/trekking/show.html"
-                    class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                    class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                     >Read More
                     <svg
-                      class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -1340,12 +1342,12 @@
 
             <!-- Single Card Start -->
             <div
-              class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+              class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
             >
               <div class="overflow-hidden rounded-t-lg">
                 <a href="pages/trekking/show.html">
                   <img
-                    class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                    class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                     src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                   />
@@ -1353,16 +1355,16 @@
               </div>
               <div class="p-4">
                 <a href="pages/trekking/show.html"
-                  ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                  ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                     Annapurna Base Camp Trek
                   </h1></a
                 >
                 <div class="flex">
                   <!-- First flex item -->
                   <div class="flex-1">
-                    <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                    <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                       From -
-                      <span class="text-primary text-lg font-semibold"
+                      <span class="text-lg font-semibold text-primary"
                         >$750</span
                       >
                     </p>
@@ -1371,10 +1373,10 @@
                   <!-- Second flex item -->
                   <div class="flex-1">
                     <div
-                      class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                      class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                     >
                       <i
-                        class="fa fa-clock mr-2 text-primary translate-y-1"
+                        class="fa fa-clock mr-2 translate-y-1 text-primary"
                       ></i>
                       <span class="text-lg">11 Days</span>
                     </div>
@@ -1382,7 +1384,7 @@
                 </div>
 
                 <div
-                  class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                  class="mb-1 text-justify font-normal text-[#4a4a4a]"
                   style="
                     font-size: clamp(16px, 1vw, 24px);
                     line-height: clamp(1.2, 5vw, 1.5);
@@ -1395,10 +1397,10 @@
                 <div class="grid place-items-center">
                   <a
                     href="pages/trekking/show.html"
-                    class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                    class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                     >Read More
                     <svg
-                      class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -1420,12 +1422,12 @@
 
             <!-- Single Card Start -->
             <div
-              class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+              class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
             >
               <div class="overflow-hidden rounded-t-lg">
                 <a href="pages/trekking/show.html">
                   <img
-                    class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                    class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                     src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                   />
@@ -1433,16 +1435,16 @@
               </div>
               <div class="p-4">
                 <a href="pages/trekking/show.html"
-                  ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                  ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                     Annapurna Base Camp Trek
                   </h1></a
                 >
                 <div class="flex">
                   <!-- First flex item -->
                   <div class="flex-1">
-                    <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                    <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                       From -
-                      <span class="text-primary text-lg font-semibold"
+                      <span class="text-lg font-semibold text-primary"
                         >$750</span
                       >
                     </p>
@@ -1451,10 +1453,10 @@
                   <!-- Second flex item -->
                   <div class="flex-1">
                     <div
-                      class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                      class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                     >
                       <i
-                        class="fa fa-clock mr-2 text-primary translate-y-1"
+                        class="fa fa-clock mr-2 translate-y-1 text-primary"
                       ></i>
                       <span class="text-lg">11 Days</span>
                     </div>
@@ -1462,7 +1464,7 @@
                 </div>
 
                 <div
-                  class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                  class="mb-1 text-justify font-normal text-[#4a4a4a]"
                   style="
                     font-size: clamp(16px, 1vw, 24px);
                     line-height: clamp(1.2, 5vw, 1.5);
@@ -1475,10 +1477,10 @@
                 <div class="grid place-items-center">
                   <a
                     href="pages/trekking/show.html"
-                    class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                    class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                     >Read More
                     <svg
-                      class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -1500,12 +1502,12 @@
 
             <!-- Single Card Start -->
             <div
-              class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+              class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
             >
               <div class="overflow-hidden rounded-t-lg">
                 <a href="pages/trekking/show.html">
                   <img
-                    class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                    class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                     src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                   />
@@ -1513,16 +1515,16 @@
               </div>
               <div class="p-4">
                 <a href="pages/trekking/show.html"
-                  ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                  ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                     Annapurna Base Camp Trek
                   </h1></a
                 >
                 <div class="flex">
                   <!-- First flex item -->
                   <div class="flex-1">
-                    <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                    <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                       From -
-                      <span class="text-primary text-lg font-semibold"
+                      <span class="text-lg font-semibold text-primary"
                         >$750</span
                       >
                     </p>
@@ -1531,10 +1533,10 @@
                   <!-- Second flex item -->
                   <div class="flex-1">
                     <div
-                      class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                      class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                     >
                       <i
-                        class="fa fa-clock mr-2 text-primary translate-y-1"
+                        class="fa fa-clock mr-2 translate-y-1 text-primary"
                       ></i>
                       <span class="text-lg">11 Days</span>
                     </div>
@@ -1542,7 +1544,7 @@
                 </div>
 
                 <div
-                  class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                  class="mb-1 text-justify font-normal text-[#4a4a4a]"
                   style="
                     font-size: clamp(16px, 1vw, 24px);
                     line-height: clamp(1.2, 5vw, 1.5);
@@ -1555,10 +1557,10 @@
                 <div class="grid place-items-center">
                   <a
                     href="pages/trekking/show.html"
-                    class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                    class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                     >Read More
                     <svg
-                      class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -1580,12 +1582,12 @@
 
             <!-- Single Card Start -->
             <div
-              class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+              class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
             >
               <div class="overflow-hidden rounded-t-lg">
                 <a href="pages/trekking/show.html">
                   <img
-                    class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                    class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                     src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                   />
@@ -1593,16 +1595,16 @@
               </div>
               <div class="p-4">
                 <a href="pages/trekking/show.html"
-                  ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                  ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                     Annapurna Base Camp Trek
                   </h1></a
                 >
                 <div class="flex">
                   <!-- First flex item -->
                   <div class="flex-1">
-                    <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                    <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                       From -
-                      <span class="text-primary text-lg font-semibold"
+                      <span class="text-lg font-semibold text-primary"
                         >$750</span
                       >
                     </p>
@@ -1611,10 +1613,10 @@
                   <!-- Second flex item -->
                   <div class="flex-1">
                     <div
-                      class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                      class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                     >
                       <i
-                        class="fa fa-clock mr-2 text-primary translate-y-1"
+                        class="fa fa-clock mr-2 translate-y-1 text-primary"
                       ></i>
                       <span class="text-lg">11 Days</span>
                     </div>
@@ -1622,7 +1624,7 @@
                 </div>
 
                 <div
-                  class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                  class="mb-1 text-justify font-normal text-[#4a4a4a]"
                   style="
                     font-size: clamp(16px, 1vw, 24px);
                     line-height: clamp(1.2, 5vw, 1.5);
@@ -1635,10 +1637,10 @@
                 <div class="grid place-items-center">
                   <a
                     href="pages/trekking/show.html"
-                    class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                    class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                     >Read More
                     <svg
-                      class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -1666,15 +1668,15 @@
       <!-- Activities Section Start -->
       <section>
         <div
-          class="container mx-auto md:p-0 p-4 text-3xl font-bold mt-2 md:mt-16 text-[#4a4a4a]"
+          class="container mx-auto mt-2 p-4 text-3xl font-bold text-[#4a4a4a] md:mt-16 md:p-0"
         >
           <h1>
             ACTIVITIES TO <span class="text-primary">DO IN NEPAL</span>
             <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
           </h1>
         </div>
-        <div class="container mx-auto mt-2 md:mt-8 md:p-0 p-4">
-          <div class="swiper w-full h-[18rem]">
+        <div class="container mx-auto mt-2 p-4 md:mt-8 md:p-0">
+          <div class="swiper h-[18rem] w-full">
             <div class="swiper-wrapper text-[#4a4a4a]">
               <div class="swiper-slide">
                 <img
@@ -1683,7 +1685,7 @@
                   alt=""
                 />
                 <p
-                  class="font-normal mt-1 text-[1.1rem] text-center -translate-x-2"
+                  class="mt-1 -translate-x-2 text-center text-[1.1rem] font-normal"
                 >
                   Easy Flights
                 </p>
@@ -1695,7 +1697,7 @@
                   alt=""
                 />
                 <p
-                  class="font-normal mt-1 text-[1.1rem] text-center -translate-x-2"
+                  class="mt-1 -translate-x-2 text-center text-[1.1rem] font-normal"
                 >
                   Trekking
                 </p>
@@ -1707,7 +1709,7 @@
                   alt=""
                 />
                 <p
-                  class="font-normal mt-1 text-[1.1rem] text-center -translate-x-2"
+                  class="mt-1 -translate-x-2 text-center text-[1.1rem] font-normal"
                 >
                   Temples
                 </p>
@@ -1719,7 +1721,7 @@
                   alt=""
                 />
                 <p
-                  class="font-normal mt-1 text-[1.1rem] text-center -translate-x-2"
+                  class="mt-1 -translate-x-2 text-center text-[1.1rem] font-normal"
                 >
                   Mountains
                 </p>
@@ -1731,7 +1733,7 @@
                   alt=""
                 />
                 <p
-                  class="font-normal mt-1 text-[1.1rem] text-center -translate-x-2"
+                  class="mt-1 -translate-x-2 text-center text-[1.1rem] font-normal"
                 >
                   Nature
                 </p>
@@ -1743,7 +1745,7 @@
                   alt=""
                 />
                 <p
-                  class="font-normal mt-1 text-[1.1rem] text-center -translate-x-2"
+                  class="mt-1 -translate-x-2 text-center text-[1.1rem] font-normal"
                 >
                   Adventure
                 </p>
@@ -1755,7 +1757,7 @@
                   alt=""
                 />
                 <p
-                  class="font-normal mt-1 text-[1.1rem] text-center -translate-x-2"
+                  class="mt-1 -translate-x-2 text-center text-[1.1rem] font-normal"
                 >
                   Culture
                 </p>
@@ -1767,7 +1769,7 @@
                   alt=""
                 />
                 <p
-                  class="font-normal text-[1.1rem] mt-1 text-center -translate-x-2"
+                  class="mt-1 -translate-x-2 text-center text-[1.1rem] font-normal"
                 >
                   Festivals
                 </p>
@@ -1782,23 +1784,23 @@
       <!-- Best Sellers Section -->
       <section>
         <div
-          class="container mx-auto md:p-0 p-4 text-3xl font-bold mt-2 md:mt-16 text-[#4a4a4a]"
+          class="container mx-auto mt-2 p-4 text-3xl font-bold text-[#4a4a4a] md:mt-16 md:p-0"
         >
           <h1>OUR BEST <span class="text-primary">SELLERS</span></h1>
           <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
         </div>
         <div
-          class="container mx-auto md:p-0 p-4 grid-cols-[] grid gap-6 my-8"
+          class="container mx-auto my-8 grid grid-cols-[] gap-6 p-4 md:p-0"
           style="grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr))"
         >
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+            class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
@@ -1806,32 +1808,32 @@
             </div>
             <div class="p-4">
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
               <div class="flex">
                 <!-- First flex item -->
                 <div class="flex-1">
-                  <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                  <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                     From -
-                    <span class="text-primary text-lg font-semibold">$750</span>
+                    <span class="text-lg font-semibold text-primary">$750</span>
                   </p>
                 </div>
 
                 <!-- Second flex item -->
                 <div class="flex-1">
                   <div
-                    class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                    class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                   >
-                    <i class="fa fa-clock mr-2 text-primary translate-y-1"></i>
+                    <i class="fa fa-clock mr-2 translate-y-1 text-primary"></i>
                     <span class="text-lg">11 Days</span>
                   </div>
                 </div>
               </div>
 
               <div
-                class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                class="mb-1 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -1844,10 +1846,10 @@
               <div class="grid place-items-center">
                 <a
                   href="pages/trekking/show.html"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                   >Read More
                   <svg
-                    class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1869,12 +1871,12 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+            class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
@@ -1882,32 +1884,32 @@
             </div>
             <div class="p-4">
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
               <div class="flex">
                 <!-- First flex item -->
                 <div class="flex-1">
-                  <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                  <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                     From -
-                    <span class="text-primary text-lg font-semibold">$750</span>
+                    <span class="text-lg font-semibold text-primary">$750</span>
                   </p>
                 </div>
 
                 <!-- Second flex item -->
                 <div class="flex-1">
                   <div
-                    class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                    class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                   >
-                    <i class="fa fa-clock mr-2 text-primary translate-y-1"></i>
+                    <i class="fa fa-clock mr-2 translate-y-1 text-primary"></i>
                     <span class="text-lg">11 Days</span>
                   </div>
                 </div>
               </div>
 
               <div
-                class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                class="mb-1 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -1920,10 +1922,10 @@
               <div class="grid place-items-center">
                 <a
                   href="pages/trekking/show.html"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                   >Read More
                   <svg
-                    class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -1945,12 +1947,12 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+            class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
@@ -1958,32 +1960,32 @@
             </div>
             <div class="p-4">
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
               <div class="flex">
                 <!-- First flex item -->
                 <div class="flex-1">
-                  <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                  <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                     From -
-                    <span class="text-primary text-lg font-semibold">$750</span>
+                    <span class="text-lg font-semibold text-primary">$750</span>
                   </p>
                 </div>
 
                 <!-- Second flex item -->
                 <div class="flex-1">
                   <div
-                    class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                    class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                   >
-                    <i class="fa fa-clock mr-2 text-primary translate-y-1"></i>
+                    <i class="fa fa-clock mr-2 translate-y-1 text-primary"></i>
                     <span class="text-lg">11 Days</span>
                   </div>
                 </div>
               </div>
 
               <div
-                class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                class="mb-1 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -1996,10 +1998,10 @@
               <div class="grid place-items-center">
                 <a
                   href="pages/trekking/show.html"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                   >Read More
                   <svg
-                    class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -2021,12 +2023,12 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+            class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
@@ -2034,32 +2036,32 @@
             </div>
             <div class="p-4">
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
               <div class="flex">
                 <!-- First flex item -->
                 <div class="flex-1">
-                  <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                  <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                     From -
-                    <span class="text-primary text-lg font-semibold">$750</span>
+                    <span class="text-lg font-semibold text-primary">$750</span>
                   </p>
                 </div>
 
                 <!-- Second flex item -->
                 <div class="flex-1">
                   <div
-                    class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                    class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                   >
-                    <i class="fa fa-clock mr-2 text-primary translate-y-1"></i>
+                    <i class="fa fa-clock mr-2 translate-y-1 text-primary"></i>
                     <span class="text-lg">11 Days</span>
                   </div>
                 </div>
               </div>
 
               <div
-                class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                class="mb-1 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -2072,10 +2074,10 @@
               <div class="grid place-items-center">
                 <a
                   href="pages/trekking/show.html"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                   >Read More
                   <svg
-                    class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -2097,12 +2099,12 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+            class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
@@ -2110,32 +2112,32 @@
             </div>
             <div class="p-4">
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
               <div class="flex">
                 <!-- First flex item -->
                 <div class="flex-1">
-                  <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                  <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                     From -
-                    <span class="text-primary text-lg font-semibold">$750</span>
+                    <span class="text-lg font-semibold text-primary">$750</span>
                   </p>
                 </div>
 
                 <!-- Second flex item -->
                 <div class="flex-1">
                   <div
-                    class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                    class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                   >
-                    <i class="fa fa-clock mr-2 text-primary translate-y-1"></i>
+                    <i class="fa fa-clock mr-2 translate-y-1 text-primary"></i>
                     <span class="text-lg">11 Days</span>
                   </div>
                 </div>
               </div>
 
               <div
-                class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                class="mb-1 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -2148,10 +2150,10 @@
               <div class="grid place-items-center">
                 <a
                   href="pages/trekking/show.html"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                   >Read More
                   <svg
-                    class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -2173,12 +2175,12 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+            class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
@@ -2186,32 +2188,32 @@
             </div>
             <div class="p-4">
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
               <div class="flex">
                 <!-- First flex item -->
                 <div class="flex-1">
-                  <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                  <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                     From -
-                    <span class="text-primary text-lg font-semibold">$750</span>
+                    <span class="text-lg font-semibold text-primary">$750</span>
                   </p>
                 </div>
 
                 <!-- Second flex item -->
                 <div class="flex-1">
                   <div
-                    class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                    class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                   >
-                    <i class="fa fa-clock mr-2 text-primary translate-y-1"></i>
+                    <i class="fa fa-clock mr-2 translate-y-1 text-primary"></i>
                     <span class="text-lg">11 Days</span>
                   </div>
                 </div>
               </div>
 
               <div
-                class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                class="mb-1 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -2224,10 +2226,10 @@
               <div class="grid place-items-center">
                 <a
                   href="pages/trekking/show.html"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                   >Read More
                   <svg
-                    class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -2249,12 +2251,12 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+            class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
@@ -2262,32 +2264,32 @@
             </div>
             <div class="p-4">
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
               <div class="flex">
                 <!-- First flex item -->
                 <div class="flex-1">
-                  <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                  <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                     From -
-                    <span class="text-primary text-lg font-semibold">$750</span>
+                    <span class="text-lg font-semibold text-primary">$750</span>
                   </p>
                 </div>
 
                 <!-- Second flex item -->
                 <div class="flex-1">
                   <div
-                    class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                    class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                   >
-                    <i class="fa fa-clock mr-2 text-primary translate-y-1"></i>
+                    <i class="fa fa-clock mr-2 translate-y-1 text-primary"></i>
                     <span class="text-lg">11 Days</span>
                   </div>
                 </div>
               </div>
 
               <div
-                class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                class="mb-1 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -2300,10 +2302,10 @@
               <div class="grid place-items-center">
                 <a
                   href="pages/trekking/show.html"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                   >Read More
                   <svg
-                    class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -2325,12 +2327,12 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-lg"
+            class="min-h-[24rem] rounded-lg border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
@@ -2338,32 +2340,32 @@
             </div>
             <div class="p-4">
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-2">
+                ><h1 class="mb-2 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
               <div class="flex">
                 <!-- First flex item -->
                 <div class="flex-1">
-                  <p class="font-normal text-[#4a4a4a] text-lg mb-1">
+                  <p class="mb-1 text-lg font-normal text-[#4a4a4a]">
                     From -
-                    <span class="text-primary text-lg font-semibold">$750</span>
+                    <span class="text-lg font-semibold text-primary">$750</span>
                   </p>
                 </div>
 
                 <!-- Second flex item -->
                 <div class="flex-1">
                   <div
-                    class="flex justify-end font-normal text-[#4a4a4a] text-lg mb-1"
+                    class="mb-1 flex justify-end text-lg font-normal text-[#4a4a4a]"
                   >
-                    <i class="fa fa-clock mr-2 text-primary translate-y-1"></i>
+                    <i class="fa fa-clock mr-2 translate-y-1 text-primary"></i>
                     <span class="text-lg">11 Days</span>
                   </div>
                 </div>
               </div>
 
               <div
-                class="font-normal mb-1 text-[#4a4a4a] text-justify"
+                class="mb-1 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -2376,10 +2378,10 @@
               <div class="grid place-items-center">
                 <a
                   href="pages/trekking/show.html"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                   >Read More
                   <svg
-                    class="-translate-x-2 inline-block rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    class="ms-2 inline-block h-3.5 w-3.5 -translate-x-2 rtl:rotate-180"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -2407,7 +2409,7 @@
 
       <section>
         <div
-          class="container mx-auto md:p-0 p-4 text-3xl font-bold mt-2 md:mt-16"
+          class="container mx-auto mt-2 p-4 text-3xl font-bold md:mt-16 md:p-0"
         >
           <h1 class="uppercase">
             WHAT OUR CLIENTS SAY <span class="text-primary">ABOUT US</span>
@@ -2416,16 +2418,16 @@
         </div>
 
         <div
-          class="container mx-auto mt-2 md:mt-8 md:p-0 p-4 h-full"
+          class="container mx-auto mt-2 h-full p-4 md:mt-8 md:p-0"
           style="overflow-x: hidden; overflow-y: clip"
         >
           <div class="h-[475px]">
-            <div class="text-[#4a4a4a] px-4 lg:px-16">
+            <div class="px-4 text-[#4a4a4a] lg:px-16">
               <div class="swiper-testimonials">
-                <div class="swiper-wrapper flex">
+                <div class="swiper-wrapper flex items-center justify-between">
                   <!-- Testimonials Card -->
                   <div
-                    class="rounded-md flex flex-col swiper-slide relative bg-white shadow-lg min-h-[23rem]"
+                    class="swiper-slide relative flex min-h-[23rem] flex-col rounded-md bg-white p-4 shadow-lg md:p-8"
                   >
                     <!-- Quote -->
                     <div
@@ -2436,11 +2438,11 @@
                         transform: translate(-50%, -50%);
                       "
                     >
-                      <i class="flex fa fa-quote-left text-secondary"></i>
+                      <i class="fa fa-quote-left flex text-secondary"></i>
                     </div>
                     <!-- Stars -->
                     <div
-                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                      class="text-normal relative pt-2 text-center text-[1rem] leading-[1.5rem] text-yellow-400 mb:pt-4"
                     >
                       <i class="fa fa-star ml-1" aria-hidden="true"></i
                       ><i class="fa fa-star ml-1" aria-hidden="true"></i
@@ -2448,7 +2450,7 @@
                     </div>
                     <!-- Paragraph -->
                     <p
-                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                      class="relative px-4 pt-2 text-center text-[1rem] font-medium text-primary mb:pt-4 mb:leading-[1.5rem]"
                     >
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Neque, a. Ad a beatae ea aut harum, saepe repellendus
@@ -2457,30 +2459,31 @@
                     </p>
                     <!-- Author -->
                     <p
-                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                      class="p-4 text-center text-[1.2rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Prithika Sharma
                     </p>
                     <p
-                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                      class="-translate-y-8 p-4 text-center text-[0.8rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Civil Engineer
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute left-[50%] bottom-8 md:-bottom-[60px] transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
-                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
                         src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="client"
                       />
                     </div>
                   </div>
                   <!-- Testimonials Card -->
+
                   <!-- Testimonials Card -->
                   <div
-                    class="rounded-md flex flex-col swiper-slide relative bg-white shadow-lg min-h-[23rem]"
+                    class="swiper-slide relative flex min-h-[23rem] flex-col rounded-md bg-white p-4 shadow-lg md:p-8"
                   >
                     <!-- Quote -->
                     <div
@@ -2491,11 +2494,11 @@
                         transform: translate(-50%, -50%);
                       "
                     >
-                      <i class="flex fa fa-quote-left text-secondary"></i>
+                      <i class="fa fa-quote-left flex text-secondary"></i>
                     </div>
                     <!-- Stars -->
                     <div
-                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                      class="text-normal relative pt-2 text-center text-[1rem] leading-[1.5rem] text-yellow-400 mb:pt-4"
                     >
                       <i class="fa fa-star ml-1" aria-hidden="true"></i
                       ><i class="fa fa-star ml-1" aria-hidden="true"></i
@@ -2503,7 +2506,7 @@
                     </div>
                     <!-- Paragraph -->
                     <p
-                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                      class="relative px-4 pt-2 text-center text-[1rem] font-medium text-primary mb:pt-4 mb:leading-[1.5rem]"
                     >
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Neque, a. Ad a beatae ea aut harum, saepe repellendus
@@ -2512,30 +2515,31 @@
                     </p>
                     <!-- Author -->
                     <p
-                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                      class="p-4 text-center text-[1.2rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Prithika Sharma
                     </p>
                     <p
-                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                      class="-translate-y-8 p-4 text-center text-[0.8rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Civil Engineer
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute left-[50%] bottom-8 md:-bottom-[60px] transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
-                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
                         src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="client"
                       />
                     </div>
                   </div>
                   <!-- Testimonials Card -->
+
                   <!-- Testimonials Card -->
                   <div
-                    class="rounded-md flex flex-col swiper-slide relative bg-white shadow-lg min-h-[23rem]"
+                    class="swiper-slide relative flex min-h-[23rem] flex-col rounded-md bg-white p-4 shadow-lg md:p-8"
                   >
                     <!-- Quote -->
                     <div
@@ -2546,11 +2550,11 @@
                         transform: translate(-50%, -50%);
                       "
                     >
-                      <i class="flex fa fa-quote-left text-secondary"></i>
+                      <i class="fa fa-quote-left flex text-secondary"></i>
                     </div>
                     <!-- Stars -->
                     <div
-                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                      class="text-normal relative pt-2 text-center text-[1rem] leading-[1.5rem] text-yellow-400 mb:pt-4"
                     >
                       <i class="fa fa-star ml-1" aria-hidden="true"></i
                       ><i class="fa fa-star ml-1" aria-hidden="true"></i
@@ -2558,7 +2562,7 @@
                     </div>
                     <!-- Paragraph -->
                     <p
-                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                      class="relative px-4 pt-2 text-center text-[1rem] font-medium text-primary mb:pt-4 mb:leading-[1.5rem]"
                     >
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Neque, a. Ad a beatae ea aut harum, saepe repellendus
@@ -2567,30 +2571,31 @@
                     </p>
                     <!-- Author -->
                     <p
-                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                      class="p-4 text-center text-[1.2rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Prithika Sharma
                     </p>
                     <p
-                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                      class="-translate-y-8 p-4 text-center text-[0.8rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Civil Engineer
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute left-[50%] bottom-8 md:-bottom-[60px] transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
-                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
                         src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="client"
                       />
                     </div>
                   </div>
                   <!-- Testimonials Card -->
+
                   <!-- Testimonials Card -->
                   <div
-                    class="rounded-md flex flex-col swiper-slide relative bg-white shadow-lg min-h-[23rem]"
+                    class="swiper-slide relative flex min-h-[23rem] flex-col rounded-md bg-white p-4 shadow-lg md:p-8"
                   >
                     <!-- Quote -->
                     <div
@@ -2601,11 +2606,11 @@
                         transform: translate(-50%, -50%);
                       "
                     >
-                      <i class="flex fa fa-quote-left text-secondary"></i>
+                      <i class="fa fa-quote-left flex text-secondary"></i>
                     </div>
                     <!-- Stars -->
                     <div
-                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                      class="text-normal relative pt-2 text-center text-[1rem] leading-[1.5rem] text-yellow-400 mb:pt-4"
                     >
                       <i class="fa fa-star ml-1" aria-hidden="true"></i
                       ><i class="fa fa-star ml-1" aria-hidden="true"></i
@@ -2613,7 +2618,7 @@
                     </div>
                     <!-- Paragraph -->
                     <p
-                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                      class="relative px-4 pt-2 text-center text-[1rem] font-medium text-primary mb:pt-4 mb:leading-[1.5rem]"
                     >
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Neque, a. Ad a beatae ea aut harum, saepe repellendus
@@ -2622,30 +2627,31 @@
                     </p>
                     <!-- Author -->
                     <p
-                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                      class="p-4 text-center text-[1.2rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Prithika Sharma
                     </p>
                     <p
-                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                      class="-translate-y-8 p-4 text-center text-[0.8rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Civil Engineer
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute left-[50%] bottom-8 md:-bottom-[60px] transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
-                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
                         src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="client"
                       />
                     </div>
                   </div>
                   <!-- Testimonials Card -->
+
                   <!-- Testimonials Card -->
                   <div
-                    class="rounded-md flex flex-col swiper-slide relative bg-white shadow-lg min-h-[23rem]"
+                    class="swiper-slide relative flex min-h-[23rem] flex-col rounded-md bg-white p-4 shadow-lg md:p-8"
                   >
                     <!-- Quote -->
                     <div
@@ -2656,11 +2662,11 @@
                         transform: translate(-50%, -50%);
                       "
                     >
-                      <i class="flex fa fa-quote-left text-secondary"></i>
+                      <i class="fa fa-quote-left flex text-secondary"></i>
                     </div>
                     <!-- Stars -->
                     <div
-                      class="relative text-yellow-400 pt-2 mb:pt-4 text-center text-normal text-[1rem] leading-[1.5rem]"
+                      class="text-normal relative pt-2 text-center text-[1rem] leading-[1.5rem] text-yellow-400 mb:pt-4"
                     >
                       <i class="fa fa-star ml-1" aria-hidden="true"></i
                       ><i class="fa fa-star ml-1" aria-hidden="true"></i
@@ -2668,7 +2674,7 @@
                     </div>
                     <!-- Paragraph -->
                     <p
-                      class="relative font-medium px-4 pt-2 mb:pt-4 text-center text-[1rem] mb:leading-[1.5rem] text-primary"
+                      class="relative px-4 pt-2 text-center text-[1rem] font-medium text-primary mb:pt-4 mb:leading-[1.5rem]"
                     >
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Neque, a. Ad a beatae ea aut harum, saepe repellendus
@@ -2677,21 +2683,21 @@
                     </p>
                     <!-- Author -->
                     <p
-                      class="font-bold p-4 text-center text-[1.2rem] leading-[1.5rem] text-[#4a4a4a]"
+                      class="p-4 text-center text-[1.2rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Prithika Sharma
                     </p>
                     <p
-                      class="font-bold p-4 text-center text-[0.8rem] leading-[1.5rem] text-[#4a4a4a] -translate-y-8"
+                      class="-translate-y-8 p-4 text-center text-[0.8rem] font-bold leading-[1.5rem] text-[#4a4a4a]"
                     >
                       Civil Engineer
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute left-[50%] bottom-8 md:-bottom-[60px] transform -translate-x-1/2 bg-white rounded-[50%] shadow-sm"
+                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
-                        class="aspect-square p-1.5 w-[100px] md:w-[120px] object-cover rounded-[50%]"
+                        class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
                         src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="client"
                       />
@@ -2703,7 +2709,7 @@
             </div>
 
             <div
-              class="flex justify-center mt-4 swiper-testimonial-pagination"
+              class="swiper-testimonial-pagination mt-4 flex justify-center"
             ></div>
           </div>
         </div>
@@ -2714,53 +2720,53 @@
       <!-- Latest Blogs Section -->
       <section>
         <div
-          class="container mx-auto md:p-0 p-4 text-3xl font-bold mt-2 md:mt-16 text-[#4a4a4a]"
+          class="container mx-auto mt-2 p-4 text-3xl font-bold text-[#4a4a4a] md:mt-16 md:p-0"
         >
           <h1 class="uppercase">
-            LATEST <span class="text-primary uppercase">BLOGS</span>
+            LATEST <span class="uppercase text-primary">BLOGS</span>
           </h1>
           <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
         </div>
         <div
-          class="container mx-auto md:p-0 p-4 grid lg:grid-cols-4 gap-4 lg:gap-6 my-8"
+          class="container mx-auto my-8 grid gap-4 p-4 md:p-0 lg:grid-cols-4 lg:gap-6"
           style="grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr))"
         >
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-md"
+            class="min-h-[24rem] rounded-md border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
               </a>
             </div>
-            <div class="py-4 px-8">
+            <div class="px-8 py-4">
               <div class="flex justify-between">
                 <p
-                  class="text-sm font-[500] text-[#4a4a4a] mb-4 flex items-center gap-1.5"
+                  class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
                   <i class="fa fa-clock text-primary"></i> Trip Duration:
                   <span class="text-base text-secondary">4 Days</span>
                 </p>
                 <p
-                  class="text-sm font-[500] text-[#4a4a4a] mb-4 flex items-center gap-1.5"
+                  class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
-                  <i class="fa fa-tag text-primary"></i> Trip Cost:
-                  <span class="text-base text-secondary">$ 8</span>
+                  <i class="fa fa-calendar-alt text-primary"></i> Date:
+                  <span class="text-base text-secondary">22 Sep 2023</span>
                 </p>
               </div>
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-4">
+                ><h1 class="mb-4 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
 
               <div
-                class="font-normal mb-4 text-[#4a4a4a] text-justify"
+                class="mb-4 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -2773,7 +2779,7 @@
               <div class="">
                 <button
                   type="button"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                 >
                   Read More <i class="fa fa-angle-right text-[15px]"></i>
                 </button>
@@ -2784,40 +2790,40 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-md"
+            class="min-h-[24rem] rounded-md border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
               </a>
             </div>
-            <div class="py-4 px-8">
+            <div class="px-8 py-4">
               <div class="flex justify-between">
                 <p
-                  class="text-sm font-[500] text-[#4a4a4a] mb-4 flex items-center gap-1.5"
+                  class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
                   <i class="fa fa-clock text-primary"></i> Trip Duration:
                   <span class="text-base text-secondary">4 Days</span>
                 </p>
                 <p
-                  class="text-sm font-[500] text-[#4a4a4a] mb-4 flex items-center gap-1.5"
+                  class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
                   <i class="fa fa-tag text-primary"></i> Trip Cost:
                   <span class="text-base text-secondary">$ 8</span>
                 </p>
               </div>
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-4">
+                ><h1 class="mb-4 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
 
               <div
-                class="font-normal mb-4 text-[#4a4a4a] text-justify"
+                class="mb-4 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -2830,7 +2836,7 @@
               <div class="">
                 <button
                   type="button"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                 >
                   Read More <i class="fa fa-angle-right text-[15px]"></i>
                 </button>
@@ -2841,40 +2847,40 @@
 
           <!-- Single Card Start -->
           <div
-            class="min-h-[24rem] border-[1px] border-solid border-slate-200 bg-white rounded-md"
+            class="min-h-[24rem] rounded-md border-[1px] border-solid border-slate-200 bg-white"
           >
             <div class="overflow-hidden rounded-t-lg">
               <a href="pages/trekking/show.html">
                 <img
-                  class="rounded-t-lg object-cover transform transition-transform hover:scale-[1.1]"
+                  class="transform rounded-t-lg object-cover transition-transform hover:scale-[1.1]"
                   src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=3552&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt=""
                 />
               </a>
             </div>
-            <div class="py-4 px-8">
+            <div class="px-8 py-4">
               <div class="flex justify-between">
                 <p
-                  class="text-sm font-[500] text-[#4a4a4a] mb-4 flex items-center gap-1.5"
+                  class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
                   <i class="fa fa-clock text-primary"></i> Trip Duration:
                   <span class="text-base text-secondary">4 Days</span>
                 </p>
                 <p
-                  class="text-sm font-[500] text-[#4a4a4a] mb-4 flex items-center gap-1.5"
+                  class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
                   <i class="fa fa-tag text-primary"></i> Trip Cost:
                   <span class="text-base text-secondary">$ 8</span>
                 </p>
               </div>
               <a href="pages/trekking/show.html"
-                ><h1 class="font-[600] text-[#4a4a4a] text-xl mb-4">
+                ><h1 class="mb-4 text-xl font-[600] text-[#4a4a4a]">
                   Annapurna Base Camp Trek
                 </h1></a
               >
 
               <div
-                class="font-normal mb-4 text-[#4a4a4a] text-justify"
+                class="mb-4 text-justify font-normal text-[#4a4a4a]"
                 style="
                   font-size: clamp(16px, 1vw, 24px);
                   line-height: clamp(1.2, 5vw, 1.5);
@@ -2887,7 +2893,7 @@
               <div class="">
                 <button
                   type="button"
-                  class="py-2 px-4 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-primary hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 flex justify-between items-center gap-2"
+                  class="mb-2 me-2 flex items-center justify-between gap-2 rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-primary hover:text-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100"
                 >
                   Read More <i class="fa fa-angle-right text-[15px]"></i>
                 </button>
@@ -2901,9 +2907,9 @@
 
       <!-- FAQs Sections -->
       <section class="container mx-auto my-2 md:my-16">
-        <div class="mx-auto md:p-0 p-4 text-3xl font-bold mb-8 text-[#4a4a4a]">
+        <div class="mx-auto mb-8 p-4 text-3xl font-bold text-[#4a4a4a] md:p-0">
           <h1 class="uppercase">
-            Question in <span class="text-primary uppercase">Mind</span>?
+            Question in <span class="uppercase text-primary">Mind</span>?
           </h1>
           <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
         </div>
@@ -2911,13 +2917,13 @@
         <div class="flex flex-col">
           <div class="py-2">
             <div
-              class="text-primary py-4 px-6 text-[16px] md:text-[20px] hover:shadow-md hover:text-secondary transition-shadow duration-300 cursor-pointer bg-white rounded flex justify-between parent-element"
+              class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
             >
               How did i prepare for high altitude trekking?
               <i class="fa-solid fa-sort-down"></i>
             </div>
             <div
-              class="py-4 px-6 text-[14px] md:text-[18px] transition ease-in-out duration-600 rounded hidden bg-gray-100 shadow-md"
+              class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
             >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
               blanditiis voluptas pariatur adipisci eos exercitationem fugiat
@@ -2930,13 +2936,13 @@
 
           <div class="py-2">
             <div
-              class="text-primary py-4 px-6 text-[16px] md:text-[20px] hover:shadow-md hover:text-secondary transition-shadow duration-300 cursor-pointer bg-white rounded flex justify-between parent-element"
+              class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
             >
               Can i exchange money during the trek?
               <i class="fa-solid fa-sort-down"></i>
             </div>
             <div
-              class="py-4 px-6 text-[14px] md:text-[18px] transition ease-in-out duration-600 rounded hidden bg-gray-100 shadow-md"
+              class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
             >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
               blanditiis voluptas pariatur adipisci eos exercitationem fugiat
@@ -2950,13 +2956,13 @@
 
           <div class="py-2">
             <div
-              class="text-primary py-4 px-6 text-[16px] md:text-[20px] hover:shadow-md hover:text-secondary transition-shadow duration-300 cursor-pointer bg-white rounded flex justify-between parent-element"
+              class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
             >
               Who is Brock Lesner?
               <i class="fa-solid fa-sort-down"></i>
             </div>
             <div
-              class="py-4 px-6 text-[14px] md:text-[18px] transition ease-in-out duration-600 rounded hidden bg-gray-100 shadow-md"
+              class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
             >
               Brock Lesner is a WWE wrestler.
             </div>
@@ -2967,79 +2973,88 @@
     </main>
 
     <!-- Detail Section -->
-    <div class="bg-slate-800">
-      <div
-        class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 bg-gray-900 text-white py-8 px-4 sm:px-8 lg:px-16"
-      >
-        <!-- Company Info -->
-        <div class="flex flex-col gap-6 text-sm">
-          <img
-            class="h-12 w-12 sm:h-16 sm:w-16"
-            src="https://trekkingagencyinnepal.com/wp-content/uploads/2023/07/cropped-Untitled-1-1.png"
-            alt="Company Logo"
-          />
-          <p class="text-sm sm:text-[15px]">
-            All Nepal Excursion is one of the best companies in Nepal that
-            offers complete tours, trekking, helicopter tour, and all
-            tourism-related packages. It is an official government-registered
-            local travel agency, associated with Nepal Tourism Board. We are
-            able to facilitate you to explore our beautiful country Nepal.
-          </p>
-          <div class="flex flex-col gap-2">
-            <a href="#" class="hover:underline flex items-center gap-2"
-              ><i class="fa fa-phone"></i>+9800000000 / 9874483838</a
-            >
-            <a href="#" class="hover:underline flex items-center gap-2"
-              ><i class="fa fa-mail-bulk"></i>info@trekkingagencyinnepal.com</a
-            >
-            <a href="#" class="hover:underline flex items-center gap-2"
-              ><i class="fa fa-location-dot"></i>Bharatpur, Chitwan</a
-            >
-            <div class="flex gap-2 mt-4">
-              <a
-                href="https://www.facebook.com/allnepalexcursiontreks"
-                target="_blank"
-                class="text-[28px]"
-                ><i class="fab fa-facebook-square"></i
-              ></a>
-              <a href="#" class="text-[28px]"
-                ><i class="fab fa-twitter-square"></i
-              ></a>
-              <a href="#" class="text-[28px]"
-                ><i class="fab fa-youtube-square"></i
-              ></a>
+    <div class="bg-gray-900">
+      <div class="container mx-auto">
+        <div
+          class="grid grid-cols-1 gap-8 py-8 text-white md:grid-cols-3 md:gap-16"
+        >
+          <!-- Company Info -->
+          <div class="flex flex-col gap-6 text-sm">
+            <img
+              class="h-12 w-12 sm:h-16 sm:w-16"
+              src="https://trekkingagencyinnepal.com/wp-content/uploads/2023/07/cropped-Untitled-1-1.png"
+              alt="Company Logo"
+            />
+            <p class="text-sm sm:text-[15px]">
+              All Nepal Excursion is one of the best companies in Nepal that
+              offers complete tours, trekking, helicopter tour, and all
+              tourism-related packages. It is an official government-registered
+              local travel agency, associated with Nepal Tourism Board. We are
+              able to facilitate you to explore our beautiful country Nepal.
+            </p>
+            <div class="flex flex-col gap-2">
+              <a href="#" class="flex items-center gap-2 hover:underline"
+                ><i class="fa fa-phone"></i>+9800000000 / 9874483838</a
+              >
+              <a href="#" class="flex items-center gap-2 hover:underline"
+                ><i class="fa fa-mail-bulk"></i
+                >info@trekkingagencyinnepal.com</a
+              >
+              <a href="#" class="flex items-center gap-2 hover:underline"
+                ><i class="fa fa-location-dot"></i>Bharatpur, Chitwan</a
+              >
+              <div class="mt-4 flex gap-2">
+                <a
+                  href="https://www.facebook.com/allnepalexcursiontreks"
+                  target="_blank"
+                  class="text-[28px]"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+                <a href="#" class="text-[28px]"
+                  ><i class="fab fa-twitter-square"></i
+                ></a>
+                <a href="#" class="text-[28px]"
+                  ><i class="fab fa-youtube-square"></i
+                ></a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Quick Links -->
-        <div class="flex flex-col md:mt-14 md:gap-3 text-sm">
-          <h1 class="text-[26px] capitalize mb-2 md:mb:0">Company</h1>
-          <a href="#" class="hover:underline">Climbing</a>
-          <a href="#" class="hover:underline">Tour</a>
-          <a href="#" class="hover:underline">Valley and View</a>
-          <a href="#" class="hover:underline">Breakfast with Mountain View</a>
-          <a href="pages/trekking/index.html" class="hover:underline"
-            >Trekking</a
-          >
-        </div>
+          <!-- Quick Links -->
+          <div class="flex flex-col text-sm md:mt-14 md:gap-3">
+            <h1 class="md:mb:0 mb-2 text-[26px] capitalize">Company</h1>
+            <a href="#" class="hover:underline">Climbing</a>
+            <a href="#" class="hover:underline">Tour</a>
+            <a href="#" class="hover:underline">Valley and View</a>
+            <a href="#" class="hover:underline">Breakfast with Mountain View</a>
+            <a href="pages/trekking/index.html" class="hover:underline"
+              >Trekking</a
+            >
+          </div>
 
-        <!-- Quick Links -->
-        <div class="flex flex-col md:mt-14 md:gap-3 text-sm">
-          <h1 class="text-[26px] capitalize mb-2 md:mb:0">Useful links</h1>
-          <a href="#" class="hover:underline capitalize">about us</a>
-          <a href="#" class="hover:underline capitalize">contact us</a>
-          <a href="#" class="hover:underline capitalize">packages</a>
-          <a href="#" class="hover:underline capitalize">Activities</a>
-          <a href="pages/trekking/index.html" class="hover:underline capitalize"
-            >teams</a
-          >
-          <a href="pages/trekking/index.html" class="hover:underline capitalize"
-            >blogs</a
-          >
-          <a href="pages/trekking/index.html" class="hover:underline capitalize"
-            >reviews</a
-          >
+          <!-- Quick Links -->
+          <div class="flex flex-col text-sm md:mt-14 md:gap-3">
+            <h1 class="md:mb:0 mb-2 text-[26px] capitalize">Useful links</h1>
+            <a href="#" class="capitalize hover:underline">about us</a>
+            <a href="#" class="capitalize hover:underline">contact us</a>
+            <a href="#" class="capitalize hover:underline">packages</a>
+            <a href="#" class="capitalize hover:underline">Activities</a>
+            <a
+              href="pages/trekking/index.html"
+              class="capitalize hover:underline"
+              >teams</a
+            >
+            <a
+              href="pages/trekking/index.html"
+              class="capitalize hover:underline"
+              >blogs</a
+            >
+            <a
+              href="pages/trekking/index.html"
+              class="capitalize hover:underline"
+              >reviews</a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -3047,7 +3062,7 @@
 
     <!-- Footer Section -->
     <div class="bg-slate-950">
-      <p class="text-white py-4 px-2 text-center">
+      <p class="px-2 py-4 text-center text-white">
         © Copyright - All Nepal Excursion | All Right Reserve
       </p>
     </div>

@@ -47,7 +47,7 @@ new Swiper(".swiper-testimonials", {
   direction: "horizontal",
   loop: true,
   slidesPerView: 1,
-  spaceBetween: 50,
+  spaceBetween: 80,
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -66,7 +66,7 @@ new Swiper(".swiper-testimonials", {
   breakpoints: {
     900: {
       slidesPerView: 2,
-      spaceBetween: 25,
+      spaceBetween: 30,
     },
   },
 });
