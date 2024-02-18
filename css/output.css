@@ -1037,12 +1037,12 @@ video {
   height: 2.5rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-\[475px\] {
+  height: 475px;
 }
 
-.h-\[510px\] {
-  height: 510px;
+.h-\[500px\] {
+  height: 500px;
 }
 
 .h-\[60px\] {
@@ -3551,8 +3551,8 @@ video {
     height: 3rem;
   }
 
-  .md\:h-\[450px\] {
-    height: 450px;
+  .md\:h-\[600px\] {
+    height: 600px;
   }
 
   .md\:w-\[120px\] {

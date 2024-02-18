@@ -66,11 +66,7 @@ new Swiper(".swiper-testimonials", {
   breakpoints: {
     900: {
       slidesPerView: 2,
-      spaceBetween: 80,
-    },
-    1280: {
-      slidesPerView: 3,
-      spaceBetween: 75,
+      spaceBetween: 25,
     },
   },
 });
