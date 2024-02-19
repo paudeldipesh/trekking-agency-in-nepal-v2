@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -37,6 +42,10 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+      }
+
+      .swiper-pagination-bullet-active {
+        background-color: #007539 !important;
       }
     </style>
     <link rel="stylesheet" href="./css/output.css" />
@@ -86,7 +95,7 @@
       >
         <a href="index.html"
           ><img
-            class="h-12 large:h-20"
+            class="animate__animated animate__fadeIn h-12 large:h-20"
             src="https://trekkingagencyinnepal.com/wp-content/uploads/2023/07/cropped-Untitled-1-1.png"
             alt="logo"
         /></a>
@@ -867,11 +876,17 @@
     <swiper-container
       class="mySwiper"
       loop="true"
+      pagination="true"
+      pagination-clickable="true"
       navigation="true"
       space-between="30"
-      autoplay-delay="3000"
+      centered-slides="true"
+      autoplay-delay="2500"
+      autoplay-disable-on-interaction="false"
     >
-      <swiper-slide class="text-center text-[18px]">
+      <swiper-slide
+        class="wow animate__animated animate__zoomIn text-center text-[18px]"
+      >
         <div class="font-bold text-white drop-shadow-lg">
           <div
             class="relative flex h-[500px] flex-col items-center justify-center gap-4 md:h-[600px]"
@@ -933,7 +948,8 @@
           </div>
         </div>
       </swiper-slide>
-    </swiper-container>
+      <div class="swiper-pagination"></div
+    ></swiper-container>
     <!-- Hero Section -->
 
     <main class="mx-auto mt-8 items-center">
@@ -941,7 +957,9 @@
 
       <section>
         <div class="container mx-auto mt-16 p-4 md:p-0 lg:flex lg:gap-2">
-          <div class="font-normal lg:flex lg:basis-[50%] lg:flex-col">
+          <div
+            class="wow animate__animated animate__slideInLeft font-normal lg:flex lg:basis-[50%] lg:flex-col"
+          >
             <h1 class="text-3xl font-bold capitalize text-[#4a4a4a]">
               ABOUT ALL NEPAL <span class="text-primary">EXCURSION</span>
             </h1>
@@ -1017,7 +1035,7 @@
 
           <!-- Cards Start -->
           <div
-            class="my-8 grid gap-6 lg:grid-cols-4"
+            class="wow animate__animated animate__slideInUp my-8 grid gap-6 lg:grid-cols-4"
             style="grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr))"
           >
             <!-- Single Card Start -->
@@ -1790,7 +1808,7 @@
           <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
         </div>
         <div
-          class="container mx-auto my-8 grid grid-cols-[] gap-6 p-4 md:p-0"
+          class="wow animate__animated animate__slideInUp container mx-auto my-8 grid grid-cols-[] gap-6 p-4 md:p-0"
           style="grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr))"
         >
           <!-- Single Card Start -->
@@ -2407,10 +2425,8 @@
 
       <!-- Testimonials Section -->
 
-      <section>
-        <div
-          class="container mx-auto mt-2 p-4 text-3xl font-bold md:mt-16 md:p-0"
-        >
+      <section class="container mx-auto">
+        <div class="mt-2 p-4 text-3xl font-bold md:mt-16 md:p-0">
           <h1 class="uppercase">
             WHAT OUR CLIENTS SAY <span class="text-primary">ABOUT US</span>
           </h1>
@@ -2424,7 +2440,7 @@
           <div class="h-[475px]">
             <div class="px-4 text-[#4a4a4a] lg:px-16">
               <div class="swiper-testimonials">
-                <div class="swiper-wrapper flex items-center justify-between">
+                <div class="swiper-wrapper">
                   <!-- Testimonials Card -->
                   <div
                     class="swiper-slide relative flex min-h-[23rem] flex-col rounded-md bg-white p-4 shadow-lg md:p-8"
@@ -2470,7 +2486,7 @@
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
+                      class="absolute bottom-1 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
                         class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
@@ -2526,7 +2542,7 @@
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
+                      class="absolute bottom-1 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
                         class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
@@ -2582,7 +2598,7 @@
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
+                      class="absolute bottom-1 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
                         class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
@@ -2638,7 +2654,7 @@
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
+                      class="absolute bottom-1 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
                         class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
@@ -2694,7 +2710,7 @@
                     </p>
                     <!-- Image -->
                     <div
-                      class="absolute bottom-8 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
+                      class="absolute bottom-1 left-[50%] -translate-x-1/2 transform rounded-[50%] bg-white shadow-sm md:-bottom-[60px]"
                     >
                       <img
                         class="aspect-square w-[100px] rounded-[50%] object-cover p-1.5 md:w-[120px]"
@@ -2728,7 +2744,7 @@
           <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
         </div>
         <div
-          class="container mx-auto my-8 grid gap-4 p-4 md:p-0 lg:grid-cols-4 lg:gap-6"
+          class="wow animate__animated animate__slideInUp container mx-auto my-8 grid gap-4 p-4 md:p-0 lg:grid-cols-4 lg:gap-6"
           style="grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr))"
         >
           <!-- Single Card Start -->
@@ -2749,7 +2765,7 @@
                 <p
                   class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
-                  <i class="fa fa-clock text-primary"></i> Trip Duration:
+                  <i class="fa fa-clock text-primary"></i> Days:
                   <span class="text-base text-secondary">4 Days</span>
                 </p>
                 <p
@@ -2806,14 +2822,14 @@
                 <p
                   class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
-                  <i class="fa fa-clock text-primary"></i> Trip Duration:
+                  <i class="fa fa-clock text-primary"></i> Days:
                   <span class="text-base text-secondary">4 Days</span>
                 </p>
                 <p
                   class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
-                  <i class="fa fa-tag text-primary"></i> Trip Cost:
-                  <span class="text-base text-secondary">$ 8</span>
+                  <i class="fa fa-calendar-alt text-primary"></i> Date:
+                  <span class="text-base text-secondary">22 Sep 2023</span>
                 </p>
               </div>
               <a href="pages/trekking/show.html"
@@ -2863,14 +2879,14 @@
                 <p
                   class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
-                  <i class="fa fa-clock text-primary"></i> Trip Duration:
+                  <i class="fa fa-clock text-primary"></i> Days:
                   <span class="text-base text-secondary">4 Days</span>
                 </p>
                 <p
                   class="mb-4 flex items-center gap-1.5 text-sm font-[500] text-[#4a4a4a]"
                 >
-                  <i class="fa fa-tag text-primary"></i> Trip Cost:
-                  <span class="text-base text-secondary">$ 8</span>
+                  <i class="fa fa-calendar-alt text-primary"></i> Date:
+                  <span class="text-base text-secondary">22 Sep 2023</span>
                 </p>
               </div>
               <a href="pages/trekking/show.html"
@@ -2905,75 +2921,167 @@
       </section>
       <!-- Latest Blogs Section -->
 
-      <!-- FAQs Sections -->
-      <section class="container mx-auto my-2 md:my-16">
-        <div class="mx-auto mb-8 p-4 text-3xl font-bold text-[#4a4a4a] md:p-0">
-          <h1 class="uppercase">
-            Question in <span class="uppercase text-primary">Mind</span>?
-          </h1>
-          <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
+      <!-- FAQs and Form Sections -->
+      <section
+        class="container mx-auto my-2 flex flex-col justify-between gap-8 md:my-16 lg:flex-row"
+      >
+        <div class="flex-1">
+          <div
+            class="mx-auto mb-8 p-4 text-3xl font-bold text-[#4a4a4a] md:p-0"
+          >
+            <h1 class="uppercase">
+              Question in <span class="uppercase text-primary">Mind</span>?
+            </h1>
+            <div class="w-[5rem] border-b-4 border-[#4a4a4a]"></div>
+          </div>
+
+          <div class="flex flex-col">
+            <div class="py-2">
+              <div
+                class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
+              >
+                How did i prepare for high altitude trekking?
+                <i class="fa-solid fa-sort-down"></i>
+              </div>
+              <div
+                class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+                blanditiis voluptas pariatur adipisci eos exercitationem fugiat
+                similique quasi sint! Cupiditate. Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Explicabo dignissimos temporibus
+                odit. Quia voluptates voluptatibus nemo consequatur, quod vel
+                voluptatum!
+              </div>
+            </div>
+
+            <div class="py-2">
+              <div
+                class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
+              >
+                Can i exchange money during the trek?
+                <i class="fa-solid fa-sort-down"></i>
+              </div>
+              <div
+                class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+                blanditiis voluptas pariatur adipisci eos exercitationem fugiat
+                similique quasi sint! Cupiditate. Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Explicabo dignissimos temporibus
+                odit. Quia voluptates voluptatibus nemo consequatur, quod vel
+                voluptatum! Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Repudiandae, veritatis.
+              </div>
+            </div>
+
+            <div class="py-2">
+              <div
+                class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
+              >
+                Who is Brock Lesner?
+                <i class="fa-solid fa-sort-down"></i>
+              </div>
+              <div
+                class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
+              >
+                Brock Lesner is a WWE wrestler.
+              </div>
+            </div>
+
+            <div class="py-2">
+              <div
+                class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
+              >
+                Can i exchange money during the trek?
+                <i class="fa-solid fa-sort-down"></i>
+              </div>
+              <div
+                class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+                blanditiis voluptas pariatur adipisci eos exercitationem fugiat
+                similique quasi sint! Cupiditate. Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Explicabo dignissimos temporibus
+                odit. Quia voluptates voluptatibus nemo consequatur, quod vel
+                voluptatum! Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Repudiandae, veritatis.
+              </div>
+            </div>
+
+            <div class="py-2">
+              <div
+                class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
+              >
+                Who is Rajesh Hamal?
+                <i class="fa-solid fa-sort-down"></i>
+              </div>
+              <div
+                class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+                magnam nulla error minima similique dicta tenetur provident
+                atque nihil iure tempora aliquam nemo iusto perferendis ea
+                deleniti nostrum tempore cumque temporibus, eaque, enim labore
+                odio. Placeat ut laboriosam voluptates iste suscipit praesentium
+                doloremque assumenda perspiciatis autem deserunt repellendus
+                tenetur labore nesciunt reprehenderit natus ducimus explicabo,
+                ipsum, itaque cumque reiciendis impedit eaque rem. Commodi quos
+                at sequi neque tempora cum nulla recusandae. Quae asperiores
+                minus minima porro culpa a quis eum delectus quasi nulla.
+                Aliquam debitis maiores maxime perspiciatis amet laudantium
+                beatae quae aperiam dolorum. Esse odio ipsa laudantium atque
+                aspernatur..
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="flex flex-col">
-          <div class="py-2">
-            <div
-              class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
-            >
-              How did i prepare for high altitude trekking?
-              <i class="fa-solid fa-sort-down"></i>
-            </div>
-            <div
-              class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
-              blanditiis voluptas pariatur adipisci eos exercitationem fugiat
-              similique quasi sint! Cupiditate. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Explicabo dignissimos temporibus
-              odit. Quia voluptates voluptatibus nemo consequatur, quod vel
-              voluptatum!
-            </div>
-          </div>
-
-          <div class="py-2">
-            <div
-              class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
-            >
-              Can i exchange money during the trek?
-              <i class="fa-solid fa-sort-down"></i>
-            </div>
-            <div
-              class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
-              blanditiis voluptas pariatur adipisci eos exercitationem fugiat
-              similique quasi sint! Cupiditate. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Explicabo dignissimos temporibus
-              odit. Quia voluptates voluptatibus nemo consequatur, quod vel
-              voluptatum! Lorem ipsum, dolor sit amet consectetur adipisicing
-              elit. Repudiandae, veritatis.
-            </div>
-          </div>
-
-          <div class="py-2">
-            <div
-              class="parent-element flex cursor-pointer justify-between rounded bg-white px-6 py-4 text-[16px] text-primary transition-shadow duration-300 hover:text-secondary hover:shadow-md md:text-[20px]"
-            >
-              Who is Brock Lesner?
-              <i class="fa-solid fa-sort-down"></i>
-            </div>
-            <div
-              class="duration-600 hidden rounded bg-gray-100 px-6 py-4 text-[14px] shadow-md transition ease-in-out md:text-[18px]"
-            >
-              Brock Lesner is a WWE wrestler.
+        <div class="bg-gray-300 p-8 lg:rounded">
+          <div class="mx-auto flex h-fit w-[450px] flex-col gap-4">
+            <h1 class="pb-4 text-center text-xl font-bold uppercase">
+              Get in touch with us
+            </h1>
+            <input
+              class="rounded p-1.5 transition duration-300 placeholder:text-primary/60 focus:outline-none focus:ring focus:ring-primary"
+              type="text"
+              placeholder="Enter Full Name"
+            />
+            <input
+              class="rounded p-1.5 transition duration-300 placeholder:text-primary/60 focus:outline-none focus:ring focus:ring-primary"
+              type="tel"
+              placeholder="Enter Phone"
+            />
+            <input
+              class="rounded p-1.5 transition duration-300 placeholder:text-primary/60 focus:outline-none focus:ring focus:ring-primary"
+              type="email"
+              placeholder="Enter Email"
+            />
+            <input
+              class="rounded p-1.5 transition duration-300 placeholder:text-primary/60 focus:outline-none focus:ring focus:ring-primary"
+              type="text"
+              placeholder="Enter Subject"
+            />
+            <textarea
+              class="rounded p-1.5 transition duration-300 placeholder:text-primary/60 focus:outline-none focus:ring focus:ring-primary"
+              placeholder="Enter Message"
+              rows="3"
+            ></textarea>
+            <div>
+              <button
+                class="rounded-bl-md rounded-tr-md bg-primary px-4 py-1.5 text-white transition duration-300 hover:bg-primary/80"
+              >
+                Submit
+              </button>
             </div>
           </div>
         </div>
       </section>
-      <!-- FAQs Sections -->
+      <!-- FAQs and Form Sections -->
     </main>
 
     <!-- Detail Section -->
-    <div class="bg-gray-900">
+    <div class="bg-gray-900 p-4 md:p-0">
       <div class="container mx-auto">
         <div
           class="grid grid-cols-1 gap-8 py-8 text-white md:grid-cols-3 md:gap-16"
@@ -2981,7 +3089,7 @@
           <!-- Company Info -->
           <div class="flex flex-col gap-6 text-sm">
             <img
-              class="h-12 w-12 sm:h-16 sm:w-16"
+              class="wow animate__animated animate__fadeIn h-12 w-12 sm:h-16 sm:w-16"
               src="https://trekkingagencyinnepal.com/wp-content/uploads/2023/07/cropped-Untitled-1-1.png"
               alt="Company Logo"
             />
@@ -3071,5 +3179,15 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
