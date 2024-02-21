@@ -1122,10 +1122,6 @@ video {
   width: 250px;
 }
 
-.w-\[450px\] {
-  width: 450px;
-}
-
 .w-\[5rem\] {
   width: 5rem;
 }
@@ -1159,24 +1155,12 @@ video {
   width: max-content;
 }
 
-.w-\[500px\] {
-  width: 500px;
-}
-
-.w-\[40px\] {
-  width: 40px;
-}
-
 .min-w-0 {
   min-width: 0px;
 }
 
 .max-w-screen-xl {
   max-width: 1280px;
-}
-
-.max-w-7xl {
-  max-width: 80rem;
 }
 
 .flex-1 {
@@ -3666,12 +3650,12 @@ video {
     width: 3rem;
   }
 
-  .md\:w-\[85\%\] {
-    width: 85%;
-  }
-
   .md\:w-\[450px\] {
     width: 450px;
+  }
+
+  .md\:w-\[85\%\] {
+    width: 85%;
   }
 
   .md\:translate-y-\[6rem\] {
@@ -3681,10 +3665,6 @@ video {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-\[auto_auto_auto_auto\] {
-    grid-template-columns: auto auto auto auto;
   }
 
   .md\:grid-cols-\[auto_auto\] {
@@ -3805,12 +3785,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  @media (min-width: 768px) {
-    .lg\:md\:grid-cols-\[auto_auto_auto_auto\] {
-      grid-template-columns: auto auto auto auto;
-    }
-  }
-
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -3934,18 +3908,6 @@ video {
   @media (min-width: 768px) {
     .xl\:md\:grid-cols-\[auto_auto_auto_auto\] {
       grid-template-columns: auto auto auto auto;
-    }
-
-    .xl\:md\:grid-cols-\[auto_auto_auto_1fr\] {
-      grid-template-columns: auto auto auto 1fr;
-    }
-
-    .xl\:md\:grid-cols-\[auto_auto_auto_500px\] {
-      grid-template-columns: auto auto auto 500px;
-    }
-
-    .xl\:md\:grid-cols-\[auto_auto_auto_400px\] {
-      grid-template-columns: auto auto auto 400px;
     }
   }
 }
