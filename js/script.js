@@ -46,7 +46,7 @@ new Swiper(".swiper", {
 new Swiper(".swiper-testimonials", {
   direction: "horizontal",
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 1,centeredSlides: true,
   spaceBetween: 80,
 
   navigation: {
